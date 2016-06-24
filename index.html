@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+		<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="./style.css" />
+    <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="./javascripts/app.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+    </script>
+
+
+    <title>FreshKillsBar</title>
+</head>
+<body>
+	<h3 class="title_bar">Fresh Kills Bar</h3>
+	<nav>
+		<p id="links_p">
+			<a id="home" class="links" href="#">Home</a> 
+			<a id="menu" class="links" href="#">Menu</a> 
+			<a id="gallery" class="links" href="#">Gallery</a>  
+			<a id="contact" class="links" href="#">Contact</a>
+		</p>
+	</nav>
+	<div id="logo_container">
+		<img id="logo" src="./logo.png" />
+	</div>
+
+	<div id="menu_container">
+		<div>
+			<img class="menu_pages" src="./menu2.png"/>
+			<img class="menu_pages" src="./menu.png"/>
+		</div>
+		<div id="pdf_link">
+			<a class="links" href="Menu v10a.pdf" >View as PDF</a>
+		</div>
+	</div>
+
+	<div id="gallery_container">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.css">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.js"></script>
+		<h3 class="gallery_titles">Photo's</h3>
+		<div class="fotorama photo-div"
+				 data-nav="thumbs"
+				 data-loop="true"
+			>
+			<img src='./img/cocktails/FreshKillsA_059.jpg' data-caption="One">
+			<img src='./img/cocktails/FreshKillsA_134.jpg' data-caption="Two">
+			<img src='./img/cocktails/FreshKillsA_213.jpg' data-caption="Three">
+			<img src='./img/cocktails/FreshKillsA_240.jpg' data-caption="Four">
+			<img src='./img/cocktails/FreshKillsA_312.jpg' data-caption="Five">
+			<img src='./img/cocktails/FreshKillsA_402.jpg' data-caption="Six">
+			<img src='./img/cocktails/FreshKillsA_420.jpg' data-caption="Seven">
+			<img src='./img/cocktails/FreshKillsA_452.jpg' data-caption="Eigth">
+			<img src='./img/cocktails/FreshKillsA_466.jpg' data-caption="Nine">
+			<img src='./img/cocktails/FreshKillsA_522.jpg' data-caption="Ten">
+			<img src="./img/bar/FreshKillsA_715.jpg" data-caption="Front">
+			<img src="./img/bar/FreshKillsA_573.jpg" data-caption="Inside">
+			<img src="./img/bar/FreshKillsA_596.jpg" data-caption="Inside2">
+			<img src="./img/bar/FreshKillsA_709.jpg" data-caption="Ice">
+		</div>
+	</div>
+
+	<div id="contact_container">
+		<form class="form-horizontal" role="form" method="post" action="mailform.php">
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">Name</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="email" class="col-sm-2 control-label">Email</label>
+		<div class="col-sm-10">
+			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="message" class="col-sm-2 control-label">Message</label>
+		<div class="col-sm-10">
+			<textarea class="form-control" rows="4" name="message"></textarea>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+			<!-- <! Will be used to display an alert to the user> -->
+		</div>
+	</div>
+</form>
+<!-- 		<form action="MAILTO:john@johnmaguiredeveloper.com" method="post" enctype="text/plain">
+			<div class="row">
+				<div class="col-sm-12 col-md-8 col-lg-8">
+					<p>Name*</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-8 col-lg-8">
+					<input type="text" name="name" value="your name">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-8 col-lg-8">
+					<p>E-mail*</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-8 col-lg-8">
+					<input type="text" name="mail" value="your email">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-8 col-lg-8">
+					<p>Message*</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-8 col-lg-8">
+					<input type="text" name="comment" value="your comment" size="50">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3 col-md-3 col-lg-3">
+					<input type="submit" value="Send">
+				</div>
+				<div class="col-sm-3 col-md-3 col-md-3">
+					<input type="reset" value="Reset">
+				</div>
+			</div>
+		</form> -->
+<!--     <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6Ld9XiMTAAAAABvgckOLhhBbvI80RVDbKyLzOAga"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form> -->
+	</div>
+
+	<footer class="row">
+		<div class="col-md-12 col-lg-12  col-sm-12 footer">
+			<p>Copyright 2016 Fresh Kills bar/John Maguire Designs</p>
+		</div>
+	</footer>
+</body>
+
+</html>
