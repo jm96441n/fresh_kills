@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Farmers_Reg';
-	src: url("/Farmers/Farmer'sCo-op-Regular.woff") format('woff');
+	src: url("./Farmers/Farmer'sCo-op-Regular.woff") format('woff');
 }
 @font-face {
 	font-family: 'Farmers_Thin';
-	src: url("/Farmers/Farmer'sCo-op-Thin.woff") format('woff');
+	src: url("./Farmers/Farmer'sCo-op-Thin.woff") format('woff');
 }
 
 .title_bar {
