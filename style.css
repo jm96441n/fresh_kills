@@ -1,0 +1,86 @@
+@font-face {
+	font-family: 'Farmers_Reg';
+	src: url("/Farmers/Farmer'sCo-op-Regular.woff") format('woff');
+}
+@font-face {
+	font-family: 'Farmers_Thin';
+	src: url("/Farmers/Farmer'sCo-op-Thin.woff") format('woff');
+}
+
+.title_bar {
+	padding-top: 1rem;
+	font-family: 'Farmers_Reg';
+	text-align: center;
+}
+
+.gallery_titles {
+	font-family: 'Farmers_Reg';
+	text-align: center;
+}
+
+#logo_container {
+	margin-top: 5%;
+	text-align: center;
+	display: inline-block;
+}
+
+#menu_container {
+	text-align: center;
+	display: none;
+}
+h3{
+	text-align: center;
+}
+#gallery_container {
+	margin: auto;
+	width: 100%;
+	display: none;
+}
+
+#contact_container {
+	display: none;
+}
+
+#logo {
+	width: 40%;
+	height: 40%;
+}
+
+#links_p {
+	margin-top: 2%;
+	text-align: center;
+}
+
+.photo-div {
+	margin: auto;
+	width: 25%;
+	height: 25%;
+}
+
+.links {
+	font-size: 1.5rem;
+	font-family: "Farmers_Thin";
+	color: black;
+	margin-left: 2%;
+}
+
+.links:hover {
+	color: black;
+}
+
+.menu_pages {
+	width:48%;
+}
+
+#pdf_link {
+	padding: 1.5rem;
+}
+
+.footer {
+	font-family: "Farmers_Thin";
+	font-size: 0.5rem;
+	margin-bottom: 0px;
+	position: fixed;
+	text-align: center;
+	
+}
