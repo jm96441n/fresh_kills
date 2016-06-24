@@ -2,14 +2,25 @@
   "name": "fresh_kills",
   "version": "1.0.0",
   "description": "Site for fresh kills bar",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": 
   },
   "keywords": [
     "website",
     "bar"
   ],
   "author": "John Maguire",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jm96441n/fresh_kills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jm96441n/fresh_kills/issues"
+  },
+  "homepage": "https://github.com/jm96441n/fresh_kills#readme"
 }
