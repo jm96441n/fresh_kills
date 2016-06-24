@@ -74,23 +74,40 @@
 	</div>
 
 	<div id="contact_container">
-		<div class="contact" id="contact">
-        <div class="wrap">
-            <h3>CONTACT US</h3>
-            <p class="a">Free Estimates</p>
-            <div class="form">
-                 <div class="form-text">
-                 <form method='post' action="./mailform.php">
-                    <input type="text" class="textbox" value="Your Name*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-                    <input type="text" class="textbox" value="Your E-mail*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}">
-                    <input name="PNumber" type="text" class="Subject" value="Phone Number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Website';}">
-                </div>
-                     <textarea name='mytextarea' placeholder="Your Message*"></textarea>
-                     <div class="clear"> </div>
-                     <input type="submit" value="SEND MESSAGE">                  
-             </div>
-     </div>
-     </div>
+		<?php 
+		$action=$_REQUEST['action']; 
+		if ($action=="")    /* display the contact form */ 
+		    { 
+		    ?> 
+		    <form  action="" method="POST" enctype="multipart/form-data"> 
+		    <input type="hidden" name="action" value="submit"> 
+		    Your name:<br> 
+		    <input name="name" type="text" value="" size="30"/><br> 
+		    Your email:<br> 
+		    <input name="email" type="text" value="" size="30"/><br> 
+		    Your message:<br> 
+		    <textarea name="message" rows="7" cols="30"></textarea><br> 
+		    <input type="submit" value="Send email"/> 
+		    </form> 
+		    <?php 
+		    }  
+		else                /* send the submitted data */ 
+		    { 
+		    $name=$_REQUEST['name']; 
+		    $email=$_REQUEST['email']; 
+		    $message=$_REQUEST['message']; 
+		    if (($name=="")||($email=="")||($message=="")) 
+		        { 
+		        echo "All fields are required, please fill <a href=\"\">the form</a> again."; 
+		        } 
+		    else{         
+		        $from="From: $name<$email>\r\nReturn-path: $email"; 
+		        $subject="Message sent using your contact form"; 
+		        mail("youremail@yoursite.com", $subject, $message, $from); 
+		        echo "Email sent!"; 
+		        } 
+		    }   
+		?> 
 <!-- 		<form action="MAILTO:john@johnmaguiredeveloper.com" method="post" enctype="text/plain">
 			<div class="row">
 				<div class="col-sm-12 col-md-8 col-lg-8">
