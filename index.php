@@ -74,33 +74,73 @@
 	</div>
 
 	<div id="contact_container">
-		<form action="" method="post">
-		First Name: <input type="text" name="first_name"><br>
-		Last Name: <input type="text" name="last_name"><br>
-		Email: <input type="text" name="email"><br>
-		Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
-		<input type="submit" name="submit" value="Submit">
-		</form>
-				<?php 
-		if(isset($_POST['submit'])){
-		    $to = "john@johnmaguiredeveloper.com"; // this is your Email address
-		    $from = $_POST['email']; // this is the sender's Email address
-		    $first_name = $_POST['first_name'];
-		    $last_name = $_POST['last_name'];
-		    $subject = "Form submission";
-		    $subject2 = "Copy of your form submission";
-		    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
-		    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
-
-		    $headers = "From:" . $from;
-		    $headers2 = "From:" . $to;
-		    mail($to,$subject,$message,$headers);
-		    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-		    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
-		    // You can also use header('Location: thank_you.php'); to redirect to another page.
-		    // You cannot use header and echo together. It's one or the other.
-		    }
-		?>
+		<div class="section-page-landing" id="contact">
+			<div class="inner-section">
+				<div class="contain">
+					<center><h2>Contact Me</h2>
+						<form class="contact" action="mailer.php" method="post">
+						<p>Name:</p> <!-- Can choose to customize form.html inputs starting here as needed, but be sure to reference any changes in mailer.php post fields-->
+						<input type="text" name="name" />
+						 <p>E-mail:</p>
+						<input type="text" name="email" />
+						<p>Subject:</p>
+						<input type="text" name="subject" />
+						<p>Message:</p>
+						<textarea name="message" syle="width: 45%; text-align: center;">Please leave a short message here</textarea></p>
+						<input class="send" type="submit" value="Send"> <!-- Send button-->
+						</form></center>
+				</div>
+			</div>
+		</div>
+		<?php
+// use actual sendgrid username and password in this section
+		$url = 'https://api.sendgrid.com/'; 
+		$user = 'app52685651@heroku.com'; // place SG username here
+		$pass = 'jm113715'; // place SG password here
+		// grabs HTML form's post data; if you customize the form.html parameters then you will need to reference their new new names here
+		$name = $_POST['name']; 
+		$email = $_POST['email']; 
+		$subject = $_POST['subject']; 
+		$message = $_POST['message'];
+		// note the above parameters now referenced in the 'subject', 'html', and 'text' sections
+		// make the to email be your own address or where ever you would like the contact form info sent
+		$params = array(
+		    'api_user'  => "$user",
+		    'api_key'   => "$pass",
+		    'to'        => "john@johnmaguiredeveloper.com", // set TO address to have the contact form's email content sent to
+		    'subject'   => "Contact Form Submission", // Either give a subject for each submission, or set to $subject
+		    'html'      => "<html><head><title> Contact Form</title><body>
+		    Name: $name\n<br>
+		    Email: $email\n<br>
+		    Subject: $subject\n<br>
+		    Message: $message <body></title></head></html>", // Set HTML here.  Will still need to make sure to reference post data names
+		    'text'      => "
+		    Name: $name\n
+		    Email: $email\n
+		    Subject: $subject\n
+		    $message",
+		    'from'      => "freshkillsbar@gmail.com", // set from address here, it can really be anything
+		  );
+					curl_setopt($curl, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1_2);
+					$request =  $url.'api/mail.send.json';
+					// Generate curl request
+					$session = curl_init($request);
+					// Tell curl to use HTTP POST
+					curl_setopt ($session, CURLOPT_POST, true);
+					// Tell curl that this is the body of the POST
+					curl_setopt ($session, CURLOPT_POSTFIELDS, $params);
+					// Tell curl not to return headers, but do return the response
+					curl_setopt($session, CURLOPT_HEADER, false);
+					curl_setopt($session, CURLOPT_RETURNTRANSFER, true);
+					// obtain response
+					$response = curl_exec($session);
+					curl_close($session);
+					// Redirect to thank you page upon successfull completion, will want to build one if you don't alreday have one available
+					header('Location: index.php'); // feel free to use whatever title you wish for thank you landing page, but will need to reference that file name in place of the present 'thanks.html'
+					exit();
+					// print everything out
+					print_r($response);
+			?>
 
 	</div>
 
