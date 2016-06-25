@@ -81,15 +81,19 @@
 			<input type="submit" value="Send"><input type="reset" value="Clear">
 		</form>
 			<?php 
-			$name = $_POST['name'];
-			$email = $_POST['email'];
-			$message = $_POST['message'];
-			$formcontent="From: $name \n Message: $message";
-			// $recipient = "john@johnmaguiredeveloper.com";
-			$subject = "Contact Form";
-			$mailheader = "From: $email \r\n";
-			mail("john@johnmaguiredeveloper.com", $subject, $formcontent, $mailheader) or die("Error!");
-			echo "Thank You!";
+				require 'vendor/autoload.php';
+				$sendgrid = new SendGrid('YOUR_SENDGRID_USERNAME', 'YOUR_SENDGRID_PASSWORD');
+				$from = $_POST['email']
+				$message = $_POST['message']
+				$email = new SendGrid\Email();
+				$email->addTo('john@johnmaguiredeveloper.com')
+				    ->setFrom($from)
+				    ->setSubject('Fresh Kills Contact 
+				    	Form')
+				    ->setText($message)
+				    ->setHtml('<strong>Hello World!</strong>');
+
+				$sendgrid->send($email);
 			?>
 
 	</div>
