@@ -85,7 +85,7 @@
 				<p class="input_fields">Name</p> <input type="text" name="name">
 				<p class="input_fields">Email</p> <input type="text" name="email">
 				<p class="input_fields">Subject</p> <input type="text" name="subject">
-				<p class="input_fields">Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+				<p class="input_fields">Message</p><textarea name="message" rows="6" cols="30"></textarea><br />
 				<input class="input_fields" type="submit" value="Send"><input class="input_fields" type="reset" value="Clear">
 			</form>
 	</div>
