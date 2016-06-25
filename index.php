@@ -28,7 +28,7 @@
 	<h3 class="title_bar">Fresh Kills Bar</h3>
 	<nav>
 		<p id="links_p">
-			<a id="home" class="links" href="#">Home</a> 
+			<a id="home" class="current_link" href="#">Home</a> 
 			<a id="menu" class="links" href="#">Menu</a> 
 			<a id="gallery" class="links" href="#">Gallery</a>  
 			<a id="contact" class="links" href="#">Contact</a>
@@ -74,11 +74,30 @@
 	</div>
 
 	<div id="contact_container" class="row">
+			<div>
+				<p class="info">Call us at: <span class="contact_info">718.599.7888</span></p>
+				<p class="info">Visit us at:</p>
+				<p class="contact_info">161 Grand Street</p>
+				<p class="contact_info">Brooklyn, NY</p>
+			</div>
+				<script src="http://maps.googleapis.com/maps/api/js"></script>
+					<script>
+					function initialize() {
+					  var mapProp = {
+					    center:new google.maps.LatLng(40.714781,-73.961519),
+					    zoom:6,
+					    mapTypeId:google.maps.MapTypeId.ROADMAP
+					  };
+					  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+					}
+					google.maps.event.addDomListener(window, 'load', initialize);
+					</script>
+			<div id="googleMap" style="width:500px;height:380px;"></div>
 			<form action="mailform.php" method="POST">
-				<p>Name</p> <input type="text" name="name">
-				<p>Email</p> <input type="text" name="email">
-				<p>Subject</p> <input type="text" name="subject">
-				<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+				<p class="input_fields">Name</p> <input type="text" name="name">
+				<p class="input_fields">Email</p> <input type="text" name="email">
+				<p class="input_fields">Subject</p> <input type="text" name="subject">
+				<p class="input_fields">Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
 				<input type="submit" value="Send"><input type="reset" value="Clear">
 			</form>
 	</div>
