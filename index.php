@@ -83,8 +83,8 @@
 			<?php 
 				require 'vendor/autoload.php';
 				$sendgrid = new SendGrid('YOUR_SENDGRID_USERNAME', 'YOUR_SENDGRID_PASSWORD');
-				$from = $_POST['email']
-				$message = $_POST['message']
+				$from = $_POST['email'];
+				$message = $_POST['message'];
 				$email = new SendGrid\Email();
 				$email->addTo('john@johnmaguiredeveloper.com')
 				    ->setFrom($from)
