@@ -93,7 +93,7 @@
 				    ->setSubject('Fresh Kills Contact 
 				    	Form')
 				    ->setText($message)
-				    ->setHtml('<strong>Hello World!</strong>' + $message);
+				    ->setHtml("<strong></strong>${message}");
 
 				$sendgrid->send($email);
 			?>
