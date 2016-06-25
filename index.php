@@ -73,35 +73,14 @@
 		</div>
 	</div>
 
-	<div id="contact_container">
-		<form action="" method="POST">
-			<p>Name</p> <input type="text" name="name">
-			<p>Email</p> <input type="text" name="email">
-			<p>Subject</p> <input type="text" name="subject">
-			<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-			<input type="submit" value="Send"><input type="reset" value="Clear">
-		</form>
-			<?php 
-				require 'vendor/autoload.php';
-				$username = getenv('SENDGRID_USERNAME');
-				$password = getenv('SENDGRID_PASSWORD');
-				$sendgrid = new SendGrid($username, $password);
-				$from = $_POST['email'];
-				$subject = $_POST['subject'];
-				$message = $_POST['message'];
-				$email = new SendGrid\Email();
-				$email->addTo('john@johnmaguiredeveloper.com')
-				    ->setFrom($from)
-				    ->setSubject('Fresh Kills Contact 
-				    	Form')
-				    ->setText($message)
-				    ->setHtml(
-				    	"<strong>${subject}</strong>
-				    	<p>${message}</p>");
-
-				$sendgrid->send($email);
-			?>
-
+	<div id="contact_container" class="row">
+			<form action="mailform.php" method="POST">
+				<p>Name</p> <input type="text" name="name">
+				<p>Email</p> <input type="text" name="email">
+				<p>Subject</p> <input type="text" name="subject">
+				<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+				<input type="submit" value="Send"><input type="reset" value="Clear">
+			</form>
 	</div>
 
 	<footer class="row">

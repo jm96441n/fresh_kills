@@ -7,6 +7,10 @@
 	src: url("./Farmers/Farmer'sCo-op-Thin.woff") format('woff');
 }
 
+body {
+	text-align: center;
+}
+
 .title_bar {
 	padding-top: 1rem;
 	font-family: 'Farmers_Reg';
@@ -28,6 +32,11 @@
 	text-align: center;
 	display: none;
 }
+
+nav {
+	border-bottom: 2px solid black; 
+}
+
 h3{
 	text-align: center;
 }
@@ -38,12 +47,17 @@ h3{
 }
 
 #contact_container {
+	margin-top: 2rem;
 	display: none;
 }
 
 #logo {
 	width: 40%;
 	height: 40%;
+}
+
+.input_fields {
+	font-family: "Farmers_Thin";
 }
 
 #links_p {
@@ -62,6 +76,14 @@ h3{
 	font-family: "Farmers_Thin";
 	color: black;
 	margin-left: 2%;
+}
+
+.current_link {
+	font-size: 2rem;
+	font-family: "Farmers_Thin";
+	color: black;
+	margin-left: 2%;
+	
 }
 
 .links:hover {
@@ -83,4 +105,14 @@ h3{
 	position: fixed;
 	text-align: center;
 	
+}
+
+.info {
+	font-family: "Farmers_Thin";
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.contact_info {
+	font-family: "Farmers_Reg"
 }
