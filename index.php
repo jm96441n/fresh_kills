@@ -77,6 +77,7 @@
 		<form action="" method="POST">
 			<p>Name</p> <input type="text" name="name">
 			<p>Email</p> <input type="text" name="email">
+			<p>Subject</p> <input type="text" name="subject">
 			<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
 			<input type="submit" value="Send"><input type="reset" value="Clear">
 		</form>
@@ -86,6 +87,7 @@
 				$password = getenv('SENDGRID_PASSWORD');
 				$sendgrid = new SendGrid($username, $password);
 				$from = $_POST['email'];
+				$subject = $_POST['subject'];
 				$message = $_POST['message'];
 				$email = new SendGrid\Email();
 				$email->addTo('john@johnmaguiredeveloper.com')
@@ -93,7 +95,9 @@
 				    ->setSubject('Fresh Kills Contact 
 				    	Form')
 				    ->setText($message)
-				    ->setHtml("<strong></strong>${message}");
+				    ->setHtml(
+				    	"<strong>${subject}</strong>
+				    	<p>${message}</p>");
 
 				$sendgrid->send($email);
 			?>
