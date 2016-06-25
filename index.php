@@ -80,7 +80,7 @@
 				<p class="contact_info">161 Grand Street</p>
 				<p class="contact_info">Brooklyn, NY</p>
 			</div>
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:300px;width:300px;"><div id="gmap_canvas" style="height:300px;width:300px;"><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.themecircle.net" id="get-map-data">wordpress themes</a></div></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(40.7147805,-73.96151889999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.7147805, -73.96151889999999)});infowindow = new google.maps.InfoWindow({content:"<b>Fresh Kills Bar</b><br/>161 Grand Street, Brooklyn, NY<br/> New York" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+			<p class="info">Email us Here:</p>
 			<form action="mailform.php" method="POST">
 				<p class="input_fields">Name</p> <input type="text" name="name">
 				<p class="input_fields">Email</p> <input type="text" name="email">
