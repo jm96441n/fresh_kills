@@ -51,7 +51,6 @@
 	<div id="gallery_container">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.css">
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.js"></script>
-		<h3 class="gallery_titles">Photo's</h3>
 		<div class="fotorama photo-div"
 				 data-nav="thumbs"
 				 data-loop="true"
@@ -92,7 +91,7 @@
 
 	<footer class="row">
 		<div class="col-md-12 col-lg-12  col-sm-12 footer">
-			<p>Copyright 2016 Fresh Kills bar/John Maguire Designs</p>
+			<p>Copyright 2016 Fresh Kills Bar/John Maguire Designs</p>
 		</div>
 	</footer>
 </body>
