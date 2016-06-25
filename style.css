@@ -120,3 +120,7 @@ form {
 .contact_info {
 	font-family: "Farmers_Thin"
 }
+
+.last_info {
+	border-bottom: 1px solid black;
+}

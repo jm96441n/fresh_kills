@@ -75,10 +75,10 @@
 
 	<div id="contact_container" class="row">
 			<div>
-				<p class="info">Call us at: <span class="contact_info">718.599.7888</span></p>
+				<p class="info">Call us at:</p> <p class="contact_info last_info">718.599.7888</p>
 				<p class="info">Visit us at:</p>
 				<p class="contact_info">161 Grand Street</p>
-				<p class="contact_info">Brooklyn, NY</p>
+				<p class="contact_info last_info">Brooklyn, NY</p>
 			</div>
 			<p class="info">Email us Here:</p>
 			<form action="mailform.php" method="POST">
