@@ -82,7 +82,7 @@
 		</form>
 			<?php 
 				require 'vendor/autoload.php';
-				$sendgrid = new SendGrid('YOUR_SENDGRID_USERNAME', 'YOUR_SENDGRID_PASSWORD');
+				$sendgrid = new SendGrid('SENDGRID_USERNAME', 'SENDGRID_PASSWORD');
 				$from = $_POST['email'];
 				$message = $_POST['message'];
 				$email = new SendGrid\Email();
