@@ -108,11 +108,15 @@ h3{
 }
 
 .info {
-	font-family: "Farmers_Thin";
+	font-family: "Farmers_Reg";
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
 
+form {
+	margin-bottom: 3rem;
+}
+
 .contact_info {
-	font-family: "Farmers_Reg"
+	font-family: "Farmers_Thin"
 }
