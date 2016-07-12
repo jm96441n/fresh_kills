@@ -23,76 +23,97 @@
     <title>FreshKillsBar</title>
 </head>
 <body>
-	<div id="logo_container">
-		<img id="logo" src="./logo.png" />
-	</div>
-
-	<div id="menu_container">
-		<div>
-			<img class="menu_pages" src="./menu2.png"/>
-			<img class="menu_pages" src="./menu.png"/>
+	<div class='row'>
+		<div class='col-lg-2 col-md-2 col-sm-0'>
+			<p>F</p>
+			<p>R</p>
+			<p>E</p>
+			<p>S</p>
+			<p>H</p>
 		</div>
-		<div id="pdf_link">
-			<a class="links" href="Menu v10a.pdf" >View as PDF</a>
-		</div>
-	</div>
-
-	<div id="gallery_container">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.css">
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.js"></script>
-		<h3 class='title_bar'>THE COCKTAILS</h3>
-		<div class="fotorama photo-div"
-				 data-nav="thumbs"
-				 data-loop="true"
-			>
-			<img src='./img/cocktails/FreshKillsA_059.jpg' data-caption="One">
-			<img src='./img/cocktails/FreshKillsA_134.jpg' data-caption="Two">
-			<img src='./img/cocktails/FreshKillsA_213.jpg' data-caption="Three">
-			<img src='./img/cocktails/FreshKillsA_240.jpg' data-caption="Four">
-			<img src='./img/cocktails/FreshKillsA_312.jpg' data-caption="Five">
-			<img src='./img/cocktails/FreshKillsA_402.jpg' data-caption="Six">
-			<img src='./img/cocktails/FreshKillsA_420.jpg' data-caption="Seven">
-			<img src='./img/cocktails/FreshKillsA_452.jpg' data-caption="Eigth">
-			<img src='./img/cocktails/FreshKillsA_466.jpg' data-caption="Nine">
-			<img src='./img/cocktails/FreshKillsA_522.jpg' data-caption="Ten">
-
-			
-		</div>
-		<h3 class='title_bar'>THE BAR</h3>
-			<div class='fotorama photo-div'
-					 data-nav="thumbs"
-					 data-loop="true"
-				>
-				<img src="./img/bar/FreshKillsA_715.jpg" data-caption="Front">
-				<img src="./img/bar/FreshKillsA_573.jpg" data-caption="Inside">
-				<img src="./img/bar/FreshKillsA_596.jpg" data-caption="Inside2">
+		<div class='col-lg-8 col-md-8 col-sm-12'>
+			<div id="logo_container">
+				<img id="logo" src="./logo.png" />
 			</div>
 
-		<h3 class='title_bar'>THE ICE</h3>
-			<div class='fotorama photo-div'
-					 data-nav="thumbs"
-					 data-loop="true"
-				>
-				<img src="./img/bar/FreshKillsA_709.jpg" data-caption="Ice">
+			<div id="menu_container">
+				<div>
+					<img class="menu_pages" src="./menu2.png"/>
+					<img class="menu_pages" src="./menu.png"/>
+				</div>
+				<div id="pdf_link">
+					<a class="links" href="Menu v10a.pdf" >View as PDF</a>
+				</div>
 			</div>
 
-	</div>
+			<div id="gallery_container">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.css">
+				<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.js"></script>
 
-	<div id="contact_container" class="row">
-			<div>
-				<p class="contact_info last_info">718.599.7888</p>
-				<p class="contact_info">161 GRAND STREET</p>
-				<p class="contact_info last_info">BROOKLYN, NY</p>
+		
+				<h3 class='title_bar'>THE COCKTAILS</h3>
+
+				<div class="fotorama photo-div"
+						 data-nav="thumbs"
+						 data-loop="true"
+					>
+					<img src='./img/cocktails/FreshKillsA_059.jpg' data-caption="One">
+					<img src='./img/cocktails/FreshKillsA_134.jpg' data-caption="Two">
+					<img src='./img/cocktails/FreshKillsA_213.jpg' data-caption="Three">
+					<img src='./img/cocktails/FreshKillsA_240.jpg' data-caption="Four">
+					<img src='./img/cocktails/FreshKillsA_312.jpg' data-caption="Five">
+					<img src='./img/cocktails/FreshKillsA_402.jpg' data-caption="Six">
+					<img src='./img/cocktails/FreshKillsA_420.jpg' data-caption="Seven">
+					<img src='./img/cocktails/FreshKillsA_452.jpg' data-caption="Eigth">
+					<img src='./img/cocktails/FreshKillsA_466.jpg' data-caption="Nine">
+					<img src='./img/cocktails/FreshKillsA_522.jpg' data-caption="Ten">
+				</div>
+
+				<h3 class='title_bar'>THE BAR</h3>
+
+				<div class='fotorama photo-div'
+						 data-nav="thumbs"
+						 data-loop="true"
+					>
+					<img src="./img/bar/FreshKillsA_715.jpg" data-caption="Front">
+					<img src="./img/bar/FreshKillsA_573.jpg" data-caption="Inside">
+					<img src="./img/bar/FreshKillsA_596.jpg" data-caption="Inside2">
+				</div>
+
+				<h3 class='title_bar'>THE ICE</h3>
+
+				<div class='fotorama photo-div'
+						 data-nav="thumbs"
+						 data-loop="true"
+					>
+					<img src="./img/bar/FreshKillsA_709.jpg" data-caption="Ice">
+				</div>
 			</div>
-			<form action="mailform.php" method="POST">
-				<p class="input_fields">NAME</p> <input type="text" name="name">
-				<p class="input_fields">EMAIL</p> <input type="text" name="email">
-				<p class="input_fields">SUBJECT</p> <input type="text" name="subject">
-				<p class="input_fields">MESSAGE</p><textarea name="message" rows="6" cols="30"></textarea><br />
-				<input class="input_fields" type="submit" value="Send"><input class="input_fields" type="reset" value="Clear">
-			</form>
-	</div>
 
+
+			<div id="contact_container" class="row">
+					<div>
+						<p class="contact_info last_info">718.599.7888</p>
+						<p class="contact_info">161 GRAND STREET</p>
+						<p class="contact_info last_info">BROOKLYN, NY</p>
+					</div>
+					<form action="mailform.php" method="POST">
+						<p class="input_fields">NAME</p> <input type="text" name="name">
+						<p class="input_fields">EMAIL</p> <input type="text" name="email">
+						<p class="input_fields">SUBJECT</p> <input type="text" name="subject">
+						<p class="input_fields">MESSAGE</p><textarea name="message" rows="6" cols="30"></textarea><br />
+						<input class="input_fields" type="submit" value="Send"><input class="input_fields" type="reset" value="Clear">
+					</form>
+			</div>
+		</div>
+		<div class='col-lg-2 col-md-2 col-sm-0'>
+			<p>K</p>
+			<p>I</p>
+			<p>L</p>
+			<p>L</p>
+			<p>S</p>
+		</div>
+	</div>
 	<nav>
 		<p id="links_p">
 			<a id="home" class="current_link" href="#">HOME</a> 
@@ -103,7 +124,7 @@
 	</nav>
 
 	<footer class="row">
-		<div class="col-md-12 col-lg-12  col-sm-12 footer">
+		<div class="col-md-12 col-lg-12 col-sm-12 footer">
 			<p>Copyright 2016 Fresh Kills Bar/John Maguire Designs</p>
 		</div>
 	</footer>
