@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="bar brooklyn williamsburg fresh kills cocktails authentic classic trendy drinks alcohol beverages">
+    <meta name="author" content="john maguire">
 		<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="./style.css" />
     <!-- Latest compiled and minified CSS -->
@@ -38,8 +38,14 @@
 
 			<div id="menu_container">
 				<div>
-					<img class="menu_pages" src="./menu2.png"/>
-					<img class="menu_pages" src="./menu.png"/>
+					<p>HAPPY HOUR</p>
+					<p>SUNDAY THROUGH THURSDAY 4PM UNTIL 7PM</p>
+					<p>BIN 'N' GITTERS (1951)</p>
+					<p><span>GIN</span> FRESH LIME JUICE, SUGAR, ANGOSURA BITTERS. SERVED ON CRUSHED ICE</p>
+					<p>NIGHT FLIGHT(1947)</p>
+					<p>CHOICE OF <span>WHITE</span> OR <span>DARK RUM</span>, MAPLE SYRUP, FRESH LIME JUICE, CINNAMON. SERVED ON CRUSHED ICE</p>
+					<p>WHISKEY FIX(1939)</p>
+					<p>CHOICE OF <span>RYE WHISKEY</span> OR <span>BOURBON</span>, FRESH LEMON HUICE, SUGAR, SERVED ON CRUSHED ICE.</p>
 				</div>
 				<div id="pdf_link">
 					<a class="links" href="Menu v10a.pdf" >View as PDF</a>
