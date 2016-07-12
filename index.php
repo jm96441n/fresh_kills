@@ -23,23 +23,22 @@
     <title>FreshKillsBar</title>
 </head>
 <body>
-	<div class='row'>
-		<div class='col-lg-2 col-md-2 col-sm-0'>
-			<p>F</p>
-			<p>R</p>
-			<p>E</p>
-			<p>S</p>
-			<p>H</p>
-		</div>
-		<div class='col-lg-8 col-md-8 col-sm-12'>
-			<div id="logo_container">
+	<div class="container-fluid">
+		<div class="row">
+			<div id="logo_container" class="col-lg-8 col-md-8 col-sm-12">
 				<img id="logo" src="./logo.png" />
 			</div>
-
-			<div id="menu_container">
+		</div>
+		<div class="row">
+			<div id="menu_container" class="col-lg-8 col-md-8 col-sm-12">
 				<div>
-					<p class="section_header">HAPPY HOUR - 6</p>
-					<p>SUNDAY THROUGH THURSDAY 4PM UNTIL 7PM</p>
+					<div>
+						<img id="top_logo" src="./top_logo.jpg"/>
+					</div>
+					<div class="section_header">
+						<p class="section_header_text">HAPPY HOUR - 6</p>
+						<p>SUNDAY THROUGH THURSDAY 4PM UNTIL 7PM</p>
+					</div>
 					<li>
 						<p class="drink_title">BIN 'N' GITTERS (1951)</p>
 						<p><span class="alcohol_type">GIN</span> FRESH LIME JUICE, SUGAR, ANGOSURA BITTERS. SERVED ON CRUSHED ICE</p>
@@ -47,26 +46,26 @@
 
 					<li>
 						<p class="drink_title">NIGHT FLIGHT (1947)</p>
-						<p>CHOICE OF <span>WHITE</span> OR <span>DARK RUM</span>, MAPLE SYRUP, FRESH LIME JUICE, CINNAMON. SERVED ON CRUSHED ICE</p>
+						<p>CHOICE OF <span class="alcohol_type">WHITE</span> OR <span class="alcohol_type">DARK RUM</span>, MAPLE SYRUP, FRESH LIME JUICE, CINNAMON. SERVED ON CRUSHED ICE</p>
 					</li>
 
 					<li>
 						<p class="drink_title">WHISKEY FIX (1939)</p>
-						<p>CHOICE OF <span>RYE WHISKEY</span> OR <span>BOURBON</span>, FRESH LEMON HUICE, SUGAR, SERVED ON CRUSHED ICE.</p>
+						<p>CHOICE OF <span class="alcohol_type">RYE WHISKEY</span> OR <span class="alcohol_type">BOURBON</span>, FRESH LEMON HUICE, SUGAR, SERVED ON CRUSHED ICE.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">KITTY HIGHBALL (1941) -- LOW ABV% - 8</p>
-						<p><span>RED WINE</span>, GINGER SYRUP, FRESH LIME JUICE, SODA WATER, SERVED LONG.</p>
+						<p><span class="alcohol_type">RED WINE</span>, GINGER SYRUP, FRESH LIME JUICE, SODA WATER, SERVED LONG.</p>
 					</li>
 
-					<p class="section_header">HAPPY HOUR BEER - 6</p>
+					<p class="section_header_text border_top">HAPPY HOUR BEER - 6</p>
 
 					<li>
 						<p><span class="drink_title">BELL'S TWO HEARTED IPA</span><span> - KALAMAZOO, MI (USA) 16 OZ. CAN</span></p>
 					</li>
 
-					<p class="section_header">LOW ABV% COCKTAILS - 11</p>
+					<p class="section_header_text section_header">LOW ABV% COCKTAILS - 11</p>
 
 					<li>
 						<p>'LOW OCTANE' REFRESHMENTS AVAILABLE DURING ALL HOURS OF BUSINESS.</p>
@@ -74,125 +73,125 @@
 
 					<li>
 						<p class="drink_title">BISMARK (1935)</p>
-						<p><span>RED WINE</span>, RASPBERRY SYRUP, FRESH LEMON JUICE. SERVED ON CRUSHED ICE.</p>
+						<p><span class="alcohol_type">RED WINE</span>, RASPBERRY SYRUP, FRESH LEMON JUICE. SERVED ON CRUSHED ICE.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">CALIFORNIA SHERRY COBBLER (1908)</p>
-						<p><span>AMONTILLADO SHEERY</span>, <span>PORT</span> WINE, FRESH JUICES OF PINEAPPLE AND LEMON, DEMERARA SYRUP, ANGOSTURA BITTERS, NUTMEG. SERVED ON CRUSHED ICE.</p>
+						<p><span class="alcohol_type">AMONTILLADO SHEERY</span>, <span class="alcohol_type">PORT</span> WINE, FRESH JUICES OF PINEAPPLE AND LEMON, DEMERARA SYRUP, ANGOSTURA BITTERS, NUTMEG. SERVED ON CRUSHED ICE.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">GREENBRIER JULEP (1927)</p>
-						<p><span>OLOROSSO SHERRY</span>, <span>PINK VERMOUTH</span>, MINT, DEMERARA SYRUP, PEACH BITTERS. SERVED ON CRUSHED ICE.</p>
+						<p><span class="alcohol_type">OLOROSSO SHERRY</span>, <span class="alcohol_type">PINK VERMOUTH</span>, MINT, DEMERARA SYRUP, PEACH BITTERS. SERVED ON CRUSHED ICE.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">NEGRONI SBAGLIATO (1967)</p>
-						<p><span>CAMPARI</span>, <span>SWEET VERMOUTH</span>, <span>PROSECO</span>. SHAKEN, AND SERVED DOWN.</p>
+						<p><span class="alcohol_type">CAMPARI</span>, <span>SWEET VERMOUTH</span>, <span class="alcohol_type">PROSECO</span>. SHAKEN, AND SERVED DOWN.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">ROOFGARDEN (1935)</p>
-						<p><span>BLANC VERMOUTH</span>, GINGER SYRUP, FRESH LIME JUICE, ANGOSTURA BITTERS, SODA WATER. SERVED LONG OVER A COLLINS SPEAR.</p>
+						<p><span class="alcohol_type">BLANC VERMOUTH</span>, GINGER SYRUP, FRESH LIME JUICE, ANGOSTURA BITTERS, SODA WATER. SERVED LONG OVER A COLLINS SPEAR.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">VELVET GLOVE (1937)</p>
-						<p><span>COGNAC</span>, <span>CREME DE CACAO</span>, <span>COCCHI AMERICANO</span>. STIRRED AND SERVED NEAT WITH A LEMON TWIST.</p>
+						<p><span class="alcohol_type">COGNAC</span>, <span class="alcohol_type">CREME DE CACAO</span>, <span>COCCHI AMERICANO</span>. STIRRED AND SERVED NEAT WITH A LEMON TWIST.</p>
 					</li>
 
-					<p><span id="the_menu">THE MENU<span> <span id="menu_price">13</span></p>
+					<p class="section_header"><span id="the_menu">THE MENU  </span><span id="menu_price"> - 13 </span></p>
 					
-					<p>BUILT IN THE GLASS OVER A ROCK</p>
+					<p class="served">BUILT IN THE GLASS OVER A ROCK</p>
 
 					<li>
 						<p class="drink_title">HOME ON THE RANGE (1944)</p>
-						<p><span>RYE WHISKEY</span>, <span>TRIPLE SEC</span>, <span>SWEET VERMOUTH</span>, ANGOSTURA BITTERS, LEMON AND ORANGE TWISTS.</p>
+						<p><span class="alcohol_type">RYE WHISKEY</span>, <span class="alcohol_type">TRIPLE SEC</span>, <span>SWEET VERMOUTH</span>, ANGOSTURA BITTERS, LEMON AND ORANGE TWISTS.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">MY HOPE (1891)</p>
-						<p><span>COGNAC</span>, <span>PORT</span> WINE, ANGOSTURA BITTERS, CAYENNE PEPPER, LEMON TWIST.</p>
+						<p><span class="alcohol_type">COGNAC</span>, <span class="alcohol_type">PORT</span> WINE, ANGOSTURA BITTERS, CAYENNE PEPPER, LEMON TWIST.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">THE COFFEE HOUSE (1930)</p>
-						<p><span>RYE WHISKEY</span>, <span>COFFEE LIQUER</span>, ORANGE BITTERS, ORANGE TWIST.</p>
+						<p><span class="alcohol_type">RYE WHISKEY</span>, <span class="alcohol_type">COFFEE LIQUER</span>, ORANGE BITTERS, ORANGE TWIST.</p>
 					</li>
 
-					<p>SHAKEN, AND SERVED STRAIGHT UP</p>
+					<p class="served">SHAKEN, AND SERVED STRAIGHT UP</p>
 
 					<li>
 						<p class="drink_title">CRIMEAN CUP A LA MARMORA (1862)</p>
-						<p><span>COGNAC</span>, OVERPROOF JAMAICAN <span>RUM</span>, FRESH LEMON JUICE, HOUSE MADE ORGEAT*, <span>MARASCHINO</span> LIQUER, <span>CHAMPAGNE</span>, LEMON TWIST.</p>
+						<p><span class="alcohol_type">COGNAC</span>, OVERPROOF JAMAICAN <span class="alcohol_type">RUM</span>, FRESH LEMON JUICE, HOUSE MADE ORGEAT*, <span class="alcohol_type">MARASCHINO</span> LIQUER, <span class="alcohol_type">CHAMPAGNE</span>, LEMON TWIST.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">PISCO-APRICOT TROPICALS (1951)</p>
-						<p><span>PISCO</span>, <span>APRICOT LIQUER</span>, FRESH LIME JUICE, ANGOSTURA BITTERS.</p>
+						<p><span class="alcohol_type">PISCO</span>, <span class="alcohol_type">APRICOT LIQUER</span>, FRESH LIME JUICE, ANGOSTURA BITTERS.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">SHANGHAI (1940)</p>
-						<p>JAMAICAN <span>RUM</span>, HOUSE-MADE GRENADINE, FRESH LEMON JUICE, ABSINTHE, CHERRY.</p>
+						<p>JAMAICAN <span class="alcohol_type">RUM</span>, HOUSE-MADE GRENADINE, FRESH LEMON JUICE, ABSINTHE, CHERRY.</p>
 					</li>
 
-					<p>SERVED LONG</p>
+					<p class="served">SERVED LONG</p>
 
 					<li>
 						<p class="drink_title">INVISIBLE GIN HIGHBALL (1905)</p>
-						<p><span>GIN</span>, <span>APRICOT LIQUER</span>, FRESH JUICES OF PINEAPPLE AND LEMON, HOUSE-MADE GINER SYRUP, SODA WATER.</p>
+						<p><span class="alcohol_type">GIN</span>, <span class="alcohol_type">APRICOT LIQUER</span>, FRESH JUICES OF PINEAPPLE AND LEMON, HOUSE-MADE GINER SYRUP, SODA WATER.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">NORTHSIDE SPECIAL (1930)</p>
-						<p>BERMUDIAN <span>RUM</span>, FRESH JUICES OF ORANGE AND LEMON, SUGAR, SODA WATER.</p>
+						<p>BERMUDIAN <span class="alcohol_type">RUM</span>, FRESH JUICES OF ORANGE AND LEMON, SUGAR, SODA WATER.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">WEST INDIA COUPEREE (1862)</p>
-						<p><span>COGNAC</span>, ORANGE <span>CURACAO</span>, VANILLA ICE CREAM, FRESH LEMON JUICE, SODA WATER, NUTMEG.</p>
+						<p><span class="alcohol_type">COGNAC</span>, ORANGE <span>CURACAO</span>, VANILLA ICE CREAM, FRESH LEMON JUICE, SODA WATER, NUTMEG.</p>
 					</li>
 					
-					<p>STIRRED, AND SERVED STRAIGHT UP</p>
+					<p class="served">STIRRED, AND SERVED STRAIGHT UP</p>
 
 					<li>
 						<p class="drink_title">ARAWAK (1947)</p>
-						<p><span>PEDRO XIMENEZ SHERRY</span>, JAMAICAN <span>RUM</span>, ANGOSTURA BITTERS, LEMON TWIST, CHERRY.</p>
+						<p><span class="alcohol_type">PEDRO XIMENEZ SHERRY</span>, JAMAICAN <span class="alcohol_type">RUM</span>, ANGOSTURA BITTERS, LEMON TWIST, CHERRY.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">DRAGON'S BREATH (1934)</p>
-						<p><span>CALVADOS</span>, <span>DRY VERMOUTH</span>, <span>APRICOT LIQUER</span>, HOT SAUCE, PICKLED WALNUT.</p>
+						<p><span class="alcohol_type">CALVADOS</span>, <span>DRY VERMOUTH</span>, <span class="alcohol_type">APRICOT LIQUER</span>, HOT SAUCE, PICKLED WALNUT.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">TUNNEL (1934)</p>
-						<p><span>GIN</span>, <span>CAMPARI</span>, SWEET AND DRY <span>VERMOUTH</span>, ORANGE TWIST, CHERRY.</p>
+						<p><span class="alcohol_type">GIN</span>, <span>CAMPARI</span>, SWEET AND DRY <span class="alcohol_type">VERMOUTH</span>, ORANGE TWIST, CHERRY.</p>
 					</li>
 
-					<p>SHAKEN, AND SERVED DOWN</p>
+					<p class="drink_title">SHAKEN, AND SERVED DOWN</p>
 
 					<li>
 						<p class="drink_title">DIZZY SOUR (1933)</p>
-						<p><span>BOURBON</span>, <span>BENEDICTINE</span>, FRESH LEMON JUICE, DEMERARA SYRUP, OVERPROOF JAMAICAN <span>RUM</span>.</p>
+						<p><span class="alcohol_type">BOURBON</span>, <span>BENEDICTINE</span>, FRESH LEMON JUICE, DEMERARA SYRUP, OVERPROOF JAMAICAN <span class="alcohol_type">RUM</span>.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">INIMITABLE COCKTAIL (1895)</p>
-						<p>OLD TOM <span>GIN</span>, FRESH LEMON JUICE, SUGAR, PEYCHAUD'S BITTERS, CHERRY.</p>
+						<p>OLD TOM <span class="alcohol_type">GIN</span>, FRESH LEMON JUICE, SUGAR, PEYCHAUD'S BITTERS, CHERRY.</p>
 					</li>
 
 					<li>
 						<p class="drink_title">UNITED SERVICE PUNCH (1862)</p>
-						<p>BATAVIA <span>ARRACK</span>, SALTED LAPSANG SOUCHONG SYRUP, FRESH LEMON JUICE, NUTMEG, LEMON TWIST.</p>
+						<p>BATAVIA <span class="alcohol_type">ARRACK</span>, SALTED LAPSANG SOUCHONG SYRUP, FRESH LEMON JUICE, NUTMEG, LEMON TWIST.</p>
 					</li>
 
-					<p id="other_cocktails">ALL OTHER COCKTAILS</p>
+					<p id="other_cocktails" class="section_header">ALL OTHER COCKTAILS</p>
 					<p>PLACE YOUR TRUST IN US, FOR WE ARE MORE THAN QUALIFIED TO SATISFY*** - $MP</p>
 
-					<p class="section_header">BEER</p>
+					<p class="section_header_text border_top">BEER</p>
 					<li>
 						<p class="drink_title">TWO ROADS 'TWO EVIL' GEYSER GOSE 7</p>
 						<p>STRATFORD,CT (USA) </p>
@@ -208,26 +207,27 @@
 						<p>LOUISVILLE,KY (USA)</p>
 					</li>
 
-					<p class="section_header">WINE</p>
-					<p><span class="wine_type">RED:</span> <span>SELLA & MOSCA CANNONAU DI SARDEGNA RISERVA 2006</span> (SARDINIA) <span>10</span></p>
+					<p class="section_header_text border_top">WINE</p>
+					<p><span class="wine_type">RED:</span> <span class="wine_description">SELLA & MOSCA CANNONAU DI SARDEGNA RISERVA 2006</span> (SARDINIA) <span>10</span></p>
 					
-					<p><span class="wine_type">WHITE:</span> <span>VELENOSI VERDICCHIO DEI CASTELLI DI JESI 2014</span> (MARCHE, ITALIA) <span>10</span></p>
+					<p><span class="wine_type">WHITE:</span> <span class="wine_description">VELENOSI VERDICCHIO DEI CASTELLI DI JESI 2014</span> (MARCHE, ITALIA) <span>10</span></p>
 
-					<p><span class="wine_type">CHAMPAGNE:</span> <span>PERRIER-JOUET GRAND BRUT</span> (EPERNAY, FRANCE) <span>14; 30</span> PER 375ML BOTTLE</p>
+					<p><span class="wine_type">CHAMPAGNE:</span> <span class="wine_description">PERRIER-JOUET GRAND BRUT</span> (EPERNAY, FRANCE) <span>14; 30</span> PER 375ML BOTTLE</p>
 
-					<p>SIPPING SPIRITS:</p>
-					<p>FOR YOUR CONSIDERATION ON THE BACK BAR. MP</p>
+					<p class="section_header_text border_top">SIPPING SPIRITS:</p>
+					<p>FOR YOUR CONSIDERATION ON THE BACK BAR. <span class="drink_title">$MP</span></p>
 
-					<p>*CONTAINS INGREDIENTS THAT MAY BE HARMFUL TO INDIVIDUALS WITH NUT ALLERGIES!</p>
-					<p>**CONTAINS MILK SUGAR/LACTOSE</p>
-					<p>***UPON YOUR REQUEST, UNCOOKED EGG WHITE, EGG YOLK OR WHOLE EGGS MAY BE INCLUDED AS AN INGREDIENT IN SOME OF OUR COCKTAILS. THESE EGGS HAVE BEEN CAREFULLY STORED AND ARE INDIVIDUALLY CRACKED TO ORDER.</p>
+					<p class="fine_print">*CONTAINS INGREDIENTS THAT MAY BE HARMFUL TO INDIVIDUALS WITH NUT ALLERGIES!</p>
+					<p class="fine_print">**CONTAINS MILK SUGAR/LACTOSE</p>
+					<p class="fine_print">***UPON YOUR REQUEST, UNCOOKED EGG WHITE, EGG YOLK OR WHOLE EGGS MAY BE INCLUDED AS AN INGREDIENT IN SOME OF OUR COCKTAILS. THESE EGGS HAVE BEEN CAREFULLY STORED AND ARE INDIVIDUALLY CRACKED TO ORDER.</p>
 				</div>
 				<div id="pdf_link">
 					<a class="links" href="Menu v10a.pdf" >View as PDF</a>
 				</div>
 			</div>
-
-			<div id="gallery_container">
+		</div>
+		<div class='row'>
+			<div id="gallery_container" class="col-lg-8 col-md-8 col-sm-12">
 				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.css">
 				<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.js"></script>
 
@@ -270,9 +270,9 @@
 					<img src="./img/bar/FreshKillsA_709.jpg" data-caption="Ice">
 				</div>
 			</div>
-
-
-			<div id="contact_container" class="row">
+		</div>
+		<div class="row">
+			<div id="contact_container" class="col-lg-8 col-md-8 col-sm-12">
 					<div>
 						<p class="contact_info last_info">718.599.7888</p>
 						<p class="contact_info">161 GRAND STREET</p>
@@ -286,13 +286,6 @@
 						<input class="input_fields" type="submit" value="Send"><input class="input_fields" type="reset" value="Clear">
 					</form>
 			</div>
-		</div>
-		<div class='col-lg-2 col-md-2 col-sm-0'>
-			<p>K</p>
-			<p>I</p>
-			<p>L</p>
-			<p>L</p>
-			<p>S</p>
 		</div>
 	</div>
 	<nav>

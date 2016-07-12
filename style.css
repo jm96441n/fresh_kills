@@ -13,6 +13,12 @@
 	format('woff');
 }
 
+@font-face {
+	font-family: 'Farmers_Semi_Bold';
+	src: url("/Farmers/Farmer'sCo-op-SemiBold.woff")
+	format('woff');
+}
+
 body {
 	text-align: center;
 }
@@ -128,10 +134,81 @@ form {
 }
 
 .drink_title {
-	font-family: "Farmers_Bold";
+	font-size: 1.2rem;
+	font-family: "Farmers_Semi_Bold";
 }
 
-.section_header {
+.served {
+	font-size: 1.6rem;
+	font-family: "Farmers_Semi_Bold";
+	text-decoration: underline;
+}
+
+.section_header_text {
 	font-family: "Farmers_Bold";
 	font-size: 2rem;
 }
+
+.alcohol_type {
+	font-family: "Farmers_Thin";
+	text-decoration: underline;
+	font-size: 1rem;
+}
+
+.wine_type {
+	font-family: "Farmers_Bold";
+	font-size: 1.2rem;
+	text-decoration: underline;
+}
+
+#the_menu {
+	font-family: "Farmers_Bold";
+	font-size: 2.4rem;
+}
+
+#other_cocktails {
+	font-family: "Farmers_Bold";
+	font-size: 2.2rem;
+}
+
+#menu_price {
+	font-family: "Farmers_Bold";
+	font-size: 1.7rem;
+}
+
+p {
+	font-family: "Farmers_Thin";
+	font-size: 1rem;
+}
+
+.wine_description {
+	font-family: "Farmers_Bold";
+}
+
+.fine_print {
+	font-size: 0.5rem;
+}
+
+.section_header {
+	border-top: 2px solid black;
+	border-bottom: 1px solid black;
+}
+
+.border_top {
+	border-top: 2px solid black;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+#top_logo {
+	width: 100%;
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
