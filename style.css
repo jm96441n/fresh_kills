@@ -24,9 +24,11 @@ body {
 }
 
 .title_bar {
-	padding-top: 1rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 	font-family: 'Farmers_Reg';
 	text-align: center;
+	color: white;
 }
 
 #logo_container {
@@ -60,8 +62,8 @@ h3{
 }
 
 #logo {
-	width: 40%;
-	height: 40%;
+	width: 87%;
+	height: 87%;
 }
 
 .input_fields {
@@ -73,11 +75,45 @@ h3{
 	text-align: center;
 }
 
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
 .photo-div {
 	margin: auto;
-	width: 25%;
-	height: 25%;
-}
+	width: 50%;
+	height: 50%;
+	padding-bottom: 2rem;
+	}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+				.photo-div {
+			margin: auto;
+			width: 50%;
+			height: 50%;
+			}
+	}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+		.photo-div {
+		margin: auto;
+		width: 50%;
+		height: 50%;
+		}
+	}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+		.photo-div {
+			margin: auto;
+			width: 50%;
+			height: 50%;
+		}
+
+  }
+
 
 .links {
 	font-size: 1.5rem;
@@ -126,7 +162,8 @@ form {
 }
 
 .contact_info {
-	font-family: "Farmers_Thin"
+	font-family: "Farmers_Thin";
+	font-size: 1.8rem;
 }
 
 .last_info {
@@ -198,17 +235,7 @@ p {
 	border-top: 2px solid black;
 }
 
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
-#top_logo {
+.top_logo {
 	width: 100%;
 }
 
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }

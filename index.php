@@ -25,15 +25,15 @@
 <body>
 	<div class="container-fluid">
 		<div class="row">
-			<div id="logo_container" class="col-lg-8 col-md-8 col-sm-12">
+			<div id="logo_container" class="col-lg-8 col-md-8 col-sm-12 col-lg-offset-2 col-md-offset-2">
 				<img id="logo" src="./logo.png" />
 			</div>
 		</div>
 		<div class="row">
-			<div id="menu_container" class="col-lg-8 col-md-8 col-sm-12">
+			<div id="menu_container" class="col-lg-8 col-md-8 col-sm-12 col-lg-offset-2 col-md-offset-2">
 				<div>
 					<div>
-						<img id="top_logo" src="./top_logo.jpg"/>
+						<img class="top_logo" src="./top_logo.png"/>
 					</div>
 					<div class="section_header">
 						<p class="section_header_text">HAPPY HOUR - 6</p>
@@ -227,52 +227,55 @@
 			</div>
 		</div>
 		<div class='row'>
-			<div id="gallery_container" class="col-lg-8 col-md-8 col-sm-12">
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.css">
-				<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.js"></script>
+			<div class="col-lg-8 col-md-8 col-sm-12 col-lg-offset-2 col-md-offset-2">
+				<div  id="gallery_container">
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.css">
+					<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.js"></script>
 
-		
-				<h3 class='title_bar'>THE COCKTAILS</h3>
+					<img class="top_logo" src="./top_logo.png"/>
+					<h3 class='title_bar'>THE COCKTAILS</h3>
 
-				<div class="fotorama photo-div"
-						 data-nav="thumbs"
-						 data-loop="true"
-					>
-					<img src='./img/cocktails/FreshKillsA_059.jpg' data-caption="One">
-					<img src='./img/cocktails/FreshKillsA_134.jpg' data-caption="Two">
-					<img src='./img/cocktails/FreshKillsA_213.jpg' data-caption="Three">
-					<img src='./img/cocktails/FreshKillsA_240.jpg' data-caption="Four">
-					<img src='./img/cocktails/FreshKillsA_312.jpg' data-caption="Five">
-					<img src='./img/cocktails/FreshKillsA_402.jpg' data-caption="Six">
-					<img src='./img/cocktails/FreshKillsA_420.jpg' data-caption="Seven">
-					<img src='./img/cocktails/FreshKillsA_452.jpg' data-caption="Eigth">
-					<img src='./img/cocktails/FreshKillsA_466.jpg' data-caption="Nine">
-					<img src='./img/cocktails/FreshKillsA_522.jpg' data-caption="Ten">
-				</div>
+					<div class="fotorama photo-div"
+							 data-nav="thumbs"
+							 data-loop="true"
+						>
+						<img src='./img/cocktails/FreshKillsA_059.jpg' data-caption="One">
+						<img src='./img/cocktails/FreshKillsA_134.jpg' data-caption="Two">
+						<img src='./img/cocktails/FreshKillsA_213.jpg' data-caption="Three">
+						<img src='./img/cocktails/FreshKillsA_240.jpg' data-caption="Four">
+						<img src='./img/cocktails/FreshKillsA_312.jpg' data-caption="Five">
+						<img src='./img/cocktails/FreshKillsA_402.jpg' data-caption="Six">
+						<img src='./img/cocktails/FreshKillsA_420.jpg' data-caption="Seven">
+						<img src='./img/cocktails/FreshKillsA_452.jpg' data-caption="Eigth">
+						<img src='./img/cocktails/FreshKillsA_466.jpg' data-caption="Nine">
+						<img src='./img/cocktails/FreshKillsA_522.jpg' data-caption="Ten">
+					</div>
 
-				<h3 class='title_bar'>THE BAR</h3>
+					<h3 class='title_bar'>THE BAR</h3>
 
-				<div class='fotorama photo-div'
-						 data-nav="thumbs"
-						 data-loop="true"
-					>
-					<img src="./img/bar/FreshKillsA_715.jpg" data-caption="Front">
-					<img src="./img/bar/FreshKillsA_573.jpg" data-caption="Inside">
-					<img src="./img/bar/FreshKillsA_596.jpg" data-caption="Inside2">
-				</div>
+					<div class='fotorama photo-div'
+							 data-nav="thumbs"
+							 data-loop="true"
+						>
+						<img src="./img/bar/FreshKillsA_715.jpg" data-caption="Front">
+						<img src="./img/bar/FreshKillsA_573.jpg" data-caption="Inside">
+						<img src="./img/bar/FreshKillsA_596.jpg" data-caption="Inside2">
+					</div>
 
-				<h3 class='title_bar'>THE ICE</h3>
+					<h3 class='title_bar'>THE ICE</h3>
 
-				<div class='fotorama photo-div'
-						 data-nav="thumbs"
-						 data-loop="true"
-					>
-					<img src="./img/bar/FreshKillsA_709.jpg" data-caption="Ice">
+					<div class='fotorama photo-div'
+							 data-nav="thumbs"
+							 data-loop="true"
+						>
+						<img src="./img/bar/FreshKillsA_709.jpg" data-caption="Ice">
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div id="contact_container" class="col-lg-8 col-md-8 col-sm-12">
+			<div id="contact_container" class="col-lg-6 col-md-6 col-sm-12 col-lg-offset-3 col-md-offset-3">
+					<img class="top_logo" src="./top_logo.png"/>
 					<div>
 						<p class="contact_info last_info">718.599.7888</p>
 						<p class="contact_info">161 GRAND STREET</p>
