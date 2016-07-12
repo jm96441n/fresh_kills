@@ -7,6 +7,12 @@
 	src: url("./Farmers/Farmer'sCo-op-Thin.woff") format('woff');
 }
 
+@font-face {
+	font-family: 'Farmers_Bold';
+	src: url("./Farmers/Farmer'sCo-op-Bold.woff")
+	format('woff');
+}
+
 body {
 	text-align: center;
 }
@@ -119,4 +125,8 @@ form {
 
 .last_info {
 	border-bottom: 1px solid black;
+}
+
+.drink_title {
+	font-family: "Farmers_Bold";
 }

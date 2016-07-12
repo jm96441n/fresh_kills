@@ -37,23 +37,34 @@
 			</div>
 
 			<div id="menu_container">
-				<div>
+				<div class="section_header">
 					<p>HAPPY HOUR - 6</p>
 					<p>SUNDAY THROUGH THURSDAY 4PM UNTIL 7PM</p>
-					<li><p>BIN 'N' GITTERS (1951)</p>
-					<p><span>GIN</span> FRESH LIME JUICE, SUGAR, ANGOSURA BITTERS. SERVED ON CRUSHED ICE</p></li>
+					<li>
+						<p class="drink_title">BIN 'N' GITTERS (1951)</p>
+						<p><span class="alcohol_type">GIN</span> FRESH LIME JUICE, SUGAR, ANGOSURA BITTERS. SERVED ON CRUSHED ICE</p>
+				</li>
 
-					<li><p>NIGHT FLIGHT(1947)</p>
-					<p>CHOICE OF <span>WHITE</span> OR <span>DARK RUM</span>, MAPLE SYRUP, FRESH LIME JUICE, CINNAMON. SERVED ON CRUSHED ICE</p></li>
+					<li>
+						<p class="drink_title">NIGHT FLIGHT(1947)</p>
+						<p>CHOICE OF <span>WHITE</span> OR <span>DARK RUM</span>, MAPLE SYRUP, FRESH LIME JUICE, CINNAMON. SERVED ON CRUSHED ICE</p>
+					</li>
 
-					<li><p>WHISKEY FIX(1939)</p>
-					<p>CHOICE OF <span>RYE WHISKEY</span> OR <span>BOURBON</span>, FRESH LEMON HUICE, SUGAR, SERVED ON CRUSHED ICE.</p></li>
+					<li>
+						<p class="drink_title">WHISKEY FIX(1939)</p>
+						<p>CHOICE OF <span>RYE WHISKEY</span> OR <span>BOURBON</span>, FRESH LEMON HUICE, SUGAR, SERVED ON CRUSHED ICE.</p>
+					</li>
 
-					<li><p>KITTY HIGHBALL(1941) -- LOW ABV% - 8</p>
-					<p><span>RED WINE</span>, GINGER SYRUP, FRESH LIME JUICE, SODA WATER, SERVED LONG.</p></li>
+					<li>
+						<p class="drink_title">KITTY HIGHBALL(1941) -- LOW ABV% - 8</p>
+						<p><span>RED WINE</span>, GINGER SYRUP, FRESH LIME JUICE, SODA WATER, SERVED LONG.</p>
+					</li>
 
 					<p>HAPPY HOUR BEER - 6</p>
-					<p><span>BELL'S TWO HEARTED IPA</span> - KALAMAZOO, MI (USA) 16 OZ. CAN</p>
+
+					<li>
+						<p class="drink_title"><span>BELL'S TWO HEARTED IPA</span> - KALAMAZOO, MI (USA) 16 OZ. CAN</p>
+					</li>
 
 					<p>LOW ABV% COCKTAILS - 11</p>
 
@@ -62,147 +73,147 @@
 					</li>
 
 					<li>
-						<p>BISMARK(1935)</p>
+						<p class="drink_title">BISMARK(1935)</p>
 						<p><span>RED WINE</span>, RASPBERRY SYRUP, FRESH LEMON JUICE. SERVED ON CRUSHED ICE.</p>
 					</li>
 
 					<li>
-						<p>CALIFORNIA SHERRY COBBLER(1908)</p>
+						<p class="drink_title">CALIFORNIA SHERRY COBBLER(1908)</p>
 						<p><span>AMONTILLADO SHEERY</span>, <span>PORT</span> WINE, FRESH JUICES OF PINEAPPLE AND LEMON, DEMERARA SYRUP, ANGOSTURA BITTERS, NUTMEG. SERVED ON CRUSHED ICE.</p>
 					</li>
 
 					<li>
-						<p>GREENBRIER JULEP(1927)</p>
+						<p class="drink_title">GREENBRIER JULEP(1927)</p>
 						<p><span>OLOROSSO SHERRY</span>, <span>PINK VERMOUTH</span>, MINT, DEMERARA SYRUP, PEACH BITTERS. SERVED ON CRUSHED ICE.</p>
 					</li>
 
 					<li>
-						<p>NEGRONI SBAGLIATO(1967)</p>
+						<p class="drink_title">NEGRONI SBAGLIATO(1967)</p>
 						<p><span>CAMPARI</span>, <span>SWEET VERMOUTH</span>, <span>PROSECO</span>. SHAKEN, AND SERVED DOWN.</p>
 					</li>
 
 					<li>
-						<p>ROOFGARDEN(1935)</p>
+						<p class="drink_title">ROOFGARDEN(1935)</p>
 						<p><span>BLANC VERMOUTH</span>, GINGER SYRUP, FRESH LIME JUICE, ANGOSTURA BITTERS, SODA WATER. SERVED LONG OVER A COLLINS SPEAR.</p>
 					</li>
 
 					<li>
-						<p>VELVET GLOVE(1937)</p>
+						<p class="drink_title">VELVET GLOVE(1937)</p>
 						<p><span>COGNAC</span>, <span>CREME DE CACAO</span>, <span>COCCHI AMERICANO</span>. STIRRED AND SERVED NEAT WITH A LEMON TWIST.</p>
 					</li>
 
-					<p>THE MENU <span>13</span></p>
+					<p><span id="the_menu">THE MENU<span> <span id="menu_price">13</span></p>
 					
 					<p>BUILT IN THE GLASS OVER A ROCK</p>
 
 					<li>
-						<p>HOME ON THE RANGE(1944)</p>
+						<p class="drink_title">HOME ON THE RANGE(1944)</p>
 						<p><span>RYE WHISKEY</span>, <span>TRIPLE SEC</span>, <span>SWEET VERMOUTH</span>, ANGOSTURA BITTERS, LEMON AND ORANGE TWISTS.</p>
 					</li>
 
 					<li>
-						<p>MY HOPE(1891)</p>
+						<p class="drink_title">MY HOPE(1891)</p>
 						<p><span>COGNAC</span>, <span>PORT</span> WINE, ANGOSTURA BITTERS, CAYENNE PEPPER, LEMON TWIST.</p>
 					</li>
 
 					<li>
-						<p>THE COFFEE HOUSE(1930)</p>
+						<p class="drink_title">THE COFFEE HOUSE(1930)</p>
 						<p><span>RYE WHISKEY</span>, <span>COFFEE LIQUER</span>, ORANGE BITTERS, ORANGE TWIST.</p>
 					</li>
 
 					<p>SHAKEN, AND SERVED STRAIGHT UP</p>
 
 					<li>
-						<p>CRIMEAN CUP A LA MARMORA(1862)</p>
+						<p class="drink_title">CRIMEAN CUP A LA MARMORA(1862)</p>
 						<p><span>COGNAC</span>, OVERPROOF JAMAICAN <span>RUM</span>, FRESH LEMON JUICE, HOUSE MADE ORGEAT*, <span>MARASCHINO</span> LIQUER, <span>CHAMPAGNE</span>, LEMON TWIST.</p>
 					</li>
 
 					<li>
-						<p>PISCO-APRICOT TROPICALS(1951)</p>
+						<p class="drink_title">PISCO-APRICOT TROPICALS(1951)</p>
 						<p><span>PISCO</span>, <span>APRICOT LIQUER</span>, FRESH LIME JUICE, ANGOSTURA BITTERS.</p>
 					</li>
 
 					<li>
-						<p>SHANGHAI(1940)</p>
+						<p class="drink_title">SHANGHAI(1940)</p>
 						<p>JAMAICAN <span>RUM</span>, HOUSE-MADE GRENADINE, FRESH LEMON JUICE, ABSINTHE, CHERRY.</p>
 					</li>
 
 					<p>SERVED LONG</p>
 
 					<li>
-						<p>INVISIBLE GIN HIGHBALL(1905)</p>
+						<p class="drink_title">INVISIBLE GIN HIGHBALL(1905)</p>
 						<p><span>GIN</span>, <span>APRICOT LIQUER</span>, FRESH JUICES OF PINEAPPLE AND LEMON, HOUSE-MADE GINER SYRUP, SODA WATER.</p>
 					</li>
 
 					<li>
-						<p>NORTHSIDE SPECIAL(1930)</p>
+						<p class="drink_title">NORTHSIDE SPECIAL(1930)</p>
 						<p>BERMUDIAN <span>RUM</span>, FRESH JUICES OF ORANGE AND LEMON, SUGAR, SODA WATER.</p>
 					</li>
 
 					<li>
-						<p>WEST INDIA COUPEREE(1862)</p>
+						<p class="drink_title">WEST INDIA COUPEREE(1862)</p>
 						<p><span>COGNAC</span>, ORANGE <span>CURACAO</span>, VANILLA ICE CREAM, FRESH LEMON JUICE, SODA WATER, NUTMEG.</p>
 					</li>
 					
 					<p>STIRRED, AND SERVED STRAIGHT UP</p>
 
 					<li>
-						<p>ARAWAK(1947)</p>
+						<p class="drink_title">ARAWAK(1947)</p>
 						<p><span>PEDRO XIMENEZ SHERRY</span>, JAMAICAN <span>RUM</span>, ANGOSTURA BITTERS, LEMON TWIST, CHERRY.</p>
 					</li>
 
 					<li>
-						<p>DRAGON'S BREATH(1934)</p>
+						<p class="drink_title">DRAGON'S BREATH(1934)</p>
 						<p><span>CALVADOS</span>, <span>DRY VERMOUTH</span>, <span>APRICOT LIQUER</span>, HOT SAUCE, PICKLED WALNUT.</p>
 					</li>
 
 					<li>
-						<p>TUNNEL(1934)</p>
+						<p class="drink_title">TUNNEL(1934)</p>
 						<p><span>GIN</span>, <span>CAMPARI</span>, SWEET AND DRY <span>VERMOUTH</span>, ORANGE TWIST, CHERRY.</p>
 					</li>
 
 					<p>SHAKEN, AND SERVED DOWN</p>
 
 					<li>
-						<p>DIZZY SOUR(1933)</p>
+						<p class="drink_title">DIZZY SOUR(1933)</p>
 						<p><span>BOURBON</span>, <span>BENEDICTINE</span>, FRESH LEMON JUICE, DEMERARA SYRUP, OVERPROOF JAMAICAN <span>RUM</span>.</p>
 					</li>
 
 					<li>
-						<p>INIMITABLE COCKTAIL(1895)</p>
+						<p class="drink_title">INIMITABLE COCKTAIL(1895)</p>
 						<p>OLD TOM <span>GIN</span>, FRESH LEMON JUICE, SUGAR, PEYCHAUD'S BITTERS, CHERRY.</p>
 					</li>
 
 					<li>
-						<p>UNITED SERVICE PUNCH(1862)</p>
+						<p class="drink_title">UNITED SERVICE PUNCH(1862)</p>
 						<p>BATAVIA <span>ARRACK</span>, SALTED LAPSANG SOUCHONG SYRUP, FRESH LEMON JUICE, NUTMEG, LEMON TWIST.</p>
 					</li>
 
-					<p>ALL OTHER COCKTAILS</p>
+					<p id="other_cocktails">ALL OTHER COCKTAILS</p>
 					<p>PLACE YOUR TRUST IN US, FOR WE ARE MORE THAN QUALIFIED TO SATISFY*** - $MP</p>
 
 					<p>BEER</p>
 					<li>
-						<p>TWO ROADS 'TWO EVIL' GEYSER GOSE 7</p>
+						<p class="drink_title">TWO ROADS 'TWO EVIL' GEYSER GOSE 7</p>
 						<p>STRATFORD,CT (USA) </p>
 					</li>
 
 					<li>	
-						<p>BELL'S TWO HEARTED IPA 6</p>
+						<p class="drink_title">BELL'S TWO HEARTED IPA 6</p>
 						<p>KALAMAZOO,MI (USA)</p>
 					</li>
 
 					<li>
-						<p>AGAINST THE GRAIN '35K' MILK STOUT**</p>
+						<p class="drink_title">AGAINST THE GRAIN '35K' MILK STOUT**</p>
 						<p>LOUISVILLE,KY (USA)</p>
 					</li>
 
 					<p>WINE</p>
-					<p><span>RED:</span> <span>SELLA & MOSCA CANNONAU DI SARDEGNA RISERVA 2006</span> (SARDINIA) <span>10</span></p>
+					<p><span class="wine_type">RED:</span> <span>SELLA & MOSCA CANNONAU DI SARDEGNA RISERVA 2006</span> (SARDINIA) <span>10</span></p>
 					
-					<p><span>WHITE:</span> <span>VELENOSI VERDICCHIO DEI CASTELLI DI JESI 2014</span> (MARCHE, ITALIA) <span>10</span></p>
+					<p><span class="wine_type">WHITE:</span> <span>VELENOSI VERDICCHIO DEI CASTELLI DI JESI 2014</span> (MARCHE, ITALIA) <span>10</span></p>
 
-					<p><span>CHAMPAGNE:</span> <span>PERRIER-JOUET GRAND BRUT</span> (EPERNAY, FRANCE) <span>14; 30</span> PER 375ML BOTTLE</p>
+					<p><span class="wine_type">CHAMPAGNE:</span> <span>PERRIER-JOUET GRAND BRUT</span> (EPERNAY, FRANCE) <span>14; 30</span> PER 375ML BOTTLE</p>
 
 					<p>SIPPING SPIRITS:</p>
 					<p>FOR YOUR CONSIDERATION ON THE BACK BAR. MP</p>
