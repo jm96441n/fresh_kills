@@ -80,17 +80,15 @@
 
 	<div id="contact_container" class="row">
 			<div>
-				<p class="info">Call us at:</p> <p class="contact_info last_info">718.599.7888</p>
-				<p class="info">Visit us at:</p>
-				<p class="contact_info">161 Grand Street</p>
-				<p class="contact_info last_info">Brooklyn, NY</p>
+				<p class="contact_info last_info">718.599.7888</p>
+				<p class="contact_info">161 GRAND STREET</p>
+				<p class="contact_info last_info">BROOKLYN, NY</p>
 			</div>
-			<p class="info">Email us Here:</p>
 			<form action="mailform.php" method="POST">
-				<p class="input_fields">Name</p> <input type="text" name="name">
-				<p class="input_fields">Email</p> <input type="text" name="email">
-				<p class="input_fields">Subject</p> <input type="text" name="subject">
-				<p class="input_fields">Message</p><textarea name="message" rows="6" cols="30"></textarea><br />
+				<p class="input_fields">NAME</p> <input type="text" name="name">
+				<p class="input_fields">EMAIL</p> <input type="text" name="email">
+				<p class="input_fields">SUBJECT</p> <input type="text" name="subject">
+				<p class="input_fields">MESSAGE</p><textarea name="message" rows="6" cols="30"></textarea><br />
 				<input class="input_fields" type="submit" value="Send"><input class="input_fields" type="reset" value="Clear">
 			</form>
 	</div>
