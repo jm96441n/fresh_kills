@@ -25,15 +25,6 @@
     <title>FreshKillsBar</title>
 </head>
 <body>
-	<h3 class="title_bar">Fresh Kills Bar</h3>
-	<nav>
-		<p id="links_p">
-			<a id="home" class="current_link" href="#">Home</a> 
-			<a id="menu" class="links" href="#">Menu</a> 
-			<a id="gallery" class="links" href="#">Gallery</a>  
-			<a id="contact" class="links" href="#">Contact</a>
-		</p>
-	</nav>
 	<div id="logo_container">
 		<img id="logo" src="./logo.png" />
 	</div>
@@ -51,6 +42,7 @@
 	<div id="gallery_container">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.css">
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.js"></script>
+		<h3 class='title_bar'>THE COCKTAILS</h3>
 		<div class="fotorama photo-div"
 				 data-nav="thumbs"
 				 data-loop="true"
@@ -65,11 +57,27 @@
 			<img src='./img/cocktails/FreshKillsA_452.jpg' data-caption="Eigth">
 			<img src='./img/cocktails/FreshKillsA_466.jpg' data-caption="Nine">
 			<img src='./img/cocktails/FreshKillsA_522.jpg' data-caption="Ten">
-			<img src="./img/bar/FreshKillsA_715.jpg" data-caption="Front">
-			<img src="./img/bar/FreshKillsA_573.jpg" data-caption="Inside">
-			<img src="./img/bar/FreshKillsA_596.jpg" data-caption="Inside2">
-			<img src="./img/bar/FreshKillsA_709.jpg" data-caption="Ice">
+
+			
 		</div>
+		<h3 class='title_bar'>THE BAR</h3>
+			<div class='fotorama photo-div'
+					 data-nav="thumbs"
+					 data-loop="true"
+				>
+				<img src="./img/bar/FreshKillsA_715.jpg" data-caption="Front">
+				<img src="./img/bar/FreshKillsA_573.jpg" data-caption="Inside">
+				<img src="./img/bar/FreshKillsA_596.jpg" data-caption="Inside2">
+			</div>
+
+		<h3 class='title_bar'>THE ICE</h3>
+			<div class='fotorama photo-div'
+					 data-nav="thumbs"
+					 data-loop="true"
+				>
+				<img src="./img/bar/FreshKillsA_709.jpg" data-caption="Ice">
+			</div>
+
 	</div>
 
 	<div id="contact_container" class="row">
@@ -88,6 +96,15 @@
 				<input class="input_fields" type="submit" value="Send"><input class="input_fields" type="reset" value="Clear">
 			</form>
 	</div>
+
+	<nav>
+		<p id="links_p">
+			<a id="home" class="current_link" href="#">HOME</a> 
+			<a id="menu" class="links" href="#">THE MENU</a> 
+			<a id="gallery" class="links" href="#">PICTURES</a>  
+			<a id="contact" class="links" href="#">CONTACT</a>
+		</p>
+	</nav>
 
 	<footer class="row">
 		<div class="col-md-12 col-lg-12  col-sm-12 footer">
