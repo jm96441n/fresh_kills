@@ -239,16 +239,22 @@
 							 data-nav="thumbs"
 							 data-loop="true"
 						>
-						<img src='./img/cocktails/FreshKillsA_059.jpg' data-caption="One">
-						<img src='./img/cocktails/FreshKillsA_134.jpg' data-caption="Two">
-						<img src='./img/cocktails/FreshKillsA_213.jpg' data-caption="Three">
-						<img src='./img/cocktails/FreshKillsA_240.jpg' data-caption="Four">
-						<img src='./img/cocktails/FreshKillsA_312.jpg' data-caption="Five">
-						<img src='./img/cocktails/FreshKillsA_402.jpg' data-caption="Six">
-						<img src='./img/cocktails/FreshKillsA_420.jpg' data-caption="Seven">
-						<img src='./img/cocktails/FreshKillsA_452.jpg' data-caption="Eigth">
-						<img src='./img/cocktails/FreshKillsA_466.jpg' data-caption="Nine">
-						<img src='./img/cocktails/FreshKillsA_522.jpg' data-caption="Ten">
+						<img src='./img/cocktails/Drink_01.jpg' data-caption="One">
+						<img src='./img/cocktails/Drink_02.jpg' data-caption="Two">
+						<img src='./img/cocktails/Drink_03.jpg' data-caption="Three">
+						<img src='./img/cocktails/Drink_04.jpg' data-caption="Four">
+						<img src='./img/cocktails/Drink_05.jpg' data-caption="Five">
+						<img src='./img/cocktails/Drink_06.jpg' data-caption="Six">
+						<img src='./img/cocktails/Drink_07.jpg' data-caption="Seven">
+						<img src='./img/cocktails/Drink_08.jpg' data-caption="Eigth">
+						<img src='./img/cocktails/Drink_09.jpg' data-caption="Nine">
+						<img src='./img/cocktails/Drink_10.jpg' data-caption="Ten">
+						<img src='./img/cocktails/Drink_11.jpg' data-caption="Eleven">
+						<img src='./img/cocktails/Drink_12.jpg' data-caption="Twelve">
+						<img src='./img/cocktails/Drink_13.jpg' data-caption="Thirteen">
+						<img src='./img/cocktails/Drink_14.jpg' data-caption="Fourteen">
+						<img src='./img/cocktails/Drink_15.jpg' data-caption="Fifteen">
+						<img src='./img/cocktails/Drink_16.jpg' data-caption="Sixteen">
 					</div>
 
 					<h3 class='title_bar'>THE BAR</h3>
@@ -257,9 +263,12 @@
 							 data-nav="thumbs"
 							 data-loop="true"
 						>
-						<img src="./img/bar/FreshKillsA_715.jpg" data-caption="Front">
-						<img src="./img/bar/FreshKillsA_573.jpg" data-caption="Inside">
-						<img src="./img/bar/FreshKillsA_596.jpg" data-caption="Inside2">
+						<img src="./img/bar/Bar_1.jpg" data-caption="Front">
+						<img src="./img/bar/Bar_2.jpg" data-caption="Inside">
+						<img src="./img/bar/Bar_3.jpg" data-caption="Inside2">
+						<img src="./img/bar/Bar_4.jpg" data-caption="Front">
+						<img src="./img/bar/Bar_5.jpg" data-caption="Front">
+						<img src="./img/bar/Bar_6.jpg" data-caption="Front">
 					</div>
 
 					<h3 class='title_bar'>THE ICE</h3>
@@ -268,7 +277,17 @@
 							 data-nav="thumbs"
 							 data-loop="true"
 						>
-						<img src="./img/bar/FreshKillsA_709.jpg" data-caption="Ice">
+						<img src="./img/bar/Ice_01.jpg" data-caption="Ice">
+						<img src="./img/bar/Ice_02.jpg" data-caption="Ice">
+						<img src="./img/bar/Ice_03.jpg" data-caption="Ice">
+						<img src="./img/bar/Ice_04.jpg" data-caption="Ice">
+						<img src="./img/bar/Ice_05.jpg" data-caption="Ice">
+						<img src="./img/bar/Ice_06.jpg" data-caption="Ice">
+						<img src="./img/bar/Ice_07.jpg" data-caption="Ice">
+						<img src="./img/bar/Ice_08.jpg" data-caption="Ice">
+						<img src="./img/bar/Ice_09.jpg" data-caption="Ice">
+						<img src="./img/bar/Ice_10.jpg" data-caption="Ice">
+						<img src="./img/bar/Ice_11.jpg" data-caption="Ice">
 					</div>
 				</div>
 			</div>
