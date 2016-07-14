@@ -239,21 +239,13 @@
 							 data-nav="thumbs"
 							 data-loop="true"
 						>
-<!-- 						<img src='./img/cocktails/Drink_01.jpg' data-caption="One">
- --><!-- 						<img src='./img/cocktails/Drink_02.jpg' data-caption="Two">
- -->						<img src='./img/cocktails/Drink_03.jpg' data-caption="HOME ON THE RANGE">
-<!-- 						<img src='./img/cocktails/Drink_04.jpg' data-caption="Four">
- -->						<img src='./img/cocktails/Drink_05.jpg' data-caption="DRAGON'S BREATH">
-<!-- 						<img src='./img/cocktails/Drink_06.jpg' data-caption="Six">
- -->						<img src='./img/cocktails/Drink_07.jpg' data-caption="CALIFORNIA SHERRY COBBLER">
-					<!-- 	<img src='./img/cocktails/Drink_08.jpg' data-caption="Eigth"> -->
+						<img src='./img/cocktails/Drink_03.jpg' data-caption="HOME ON THE RANGE">
+						<img src='./img/cocktails/Drink_05.jpg' data-caption="DRAGON'S BREATH">
+						<img src='./img/cocktails/Drink_07.jpg' data-caption="CALIFORNIA SHERRY COBBLER">
 						<img src='./img/cocktails/Drink_09.jpg' data-caption="WEST INDIA COUPEREE">
-<!-- 						<img src='./img/cocktails/Drink_10.jpg' data-caption="UNITED SERVICE PUNCH"> -->
 						
 						<img src='./img/cocktails/Drink_13.jpg' data-caption="UNITED SERVICE PUNCH">
-						
 						<img src='./img/cocktails/Drink_14.jpg' data-caption="ROOFGARDEN">
-					<!-- 	<img src='./img/cocktails/Drink_15.jpg' data-caption="Fifteen"> -->
 						<img src='./img/cocktails/Drink_16.jpg' data-caption="SHANGHAI">
 					</div>
 
@@ -265,10 +257,6 @@
 						>
 						<img src="./img/bar/Bar_1.jpg" >
 						<img src="./img/bar/Bar_2.jpg" >
-						<img src="./img/bar/Bar_3.jpg" >
-						<img src="./img/bar/Bar_4.jpg" >
-						<img src="./img/bar/Bar_5.jpg" >
-						<img src="./img/bar/Bar_6.jpg" >
 					</div>
 
 					<h3 class='title_bar'>THE ICE</h3>
@@ -278,16 +266,9 @@
 							 data-loop="true"
 						>
 						<img src="./img/ice/Ice_01.jpg" >
-						<img src="./img/ice/Ice_02.jpg" >
 						<img src="./img/ice/Ice_03.jpg" >
 						<img src="./img/ice/Ice_04.jpg" >
-						<img src="./img/ice/Ice_05.jpg" >
-						<img src="./img/ice/Ice_06.jpg" >
-						<img src="./img/ice/Ice_07.jpg" >
-						<img src="./img/ice/Ice_08.jpg" >
 						<img src="./img/ice/Ice_09.jpg" >
-						<img src="./img/ice/Ice_10.jpg" >
-						<img src="./img/ice/Ice_11.jpg" >
 					</div>
 				</div>
 			</div>
