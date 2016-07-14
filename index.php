@@ -263,12 +263,12 @@
 							 data-nav="thumbs"
 							 data-loop="true"
 						>
-						<img src="./img/bar/Bar_1.jpg" data-caption="Front">
-						<img src="./img/bar/Bar_2.jpg" data-caption="Inside">
-						<img src="./img/bar/Bar_3.jpg" data-caption="Inside2">
-						<img src="./img/bar/Bar_4.jpg" data-caption="Front">
-						<img src="./img/bar/Bar_5.jpg" data-caption="Front">
-						<img src="./img/bar/Bar_6.jpg" data-caption="Front">
+						<img src="./img/bar/Bar_1.jpg" >
+						<img src="./img/bar/Bar_2.jpg" >
+						<img src="./img/bar/Bar_3.jpg" >
+						<img src="./img/bar/Bar_4.jpg" >
+						<img src="./img/bar/Bar_5.jpg" >
+						<img src="./img/bar/Bar_6.jpg" >
 					</div>
 
 					<h3 class='title_bar'>THE ICE</h3>
@@ -277,17 +277,17 @@
 							 data-nav="thumbs"
 							 data-loop="true"
 						>
-						<img src="./img/bar/Ice_01.jpg" data-caption="Ice">
-						<img src="./img/bar/Ice_02.jpg" data-caption="Ice">
-						<img src="./img/bar/Ice_03.jpg" data-caption="Ice">
-						<img src="./img/bar/Ice_04.jpg" data-caption="Ice">
-						<img src="./img/bar/Ice_05.jpg" data-caption="Ice">
-						<img src="./img/bar/Ice_06.jpg" data-caption="Ice">
-						<img src="./img/bar/Ice_07.jpg" data-caption="Ice">
-						<img src="./img/bar/Ice_08.jpg" data-caption="Ice">
-						<img src="./img/bar/Ice_09.jpg" data-caption="Ice">
-						<img src="./img/bar/Ice_10.jpg" data-caption="Ice">
-						<img src="./img/bar/Ice_11.jpg" data-caption="Ice">
+						<img src="./img/ice/Ice_01.jpg" >
+						<img src="./img/ice/Ice_02.jpg" >
+						<img src="./img/ice/Ice_03.jpg" >
+						<img src="./img/ice/Ice_04.jpg" >
+						<img src="./img/ice/Ice_05.jpg" >
+						<img src="./img/ice/Ice_06.jpg" >
+						<img src="./img/ice/Ice_07.jpg" >
+						<img src="./img/ice/Ice_08.jpg" >
+						<img src="./img/ice/Ice_09.jpg" >
+						<img src="./img/ice/Ice_10.jpg" >
+						<img src="./img/ice/Ice_11.jpg" >
 					</div>
 				</div>
 			</div>
