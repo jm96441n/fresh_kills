@@ -239,22 +239,22 @@
 							 data-nav="thumbs"
 							 data-loop="true"
 						>
-						<img src='./img/cocktails/Drink_01.jpg' data-caption="One">
-						<img src='./img/cocktails/Drink_02.jpg' data-caption="Two">
-						<img src='./img/cocktails/Drink_03.jpg' data-caption="Three">
-						<img src='./img/cocktails/Drink_04.jpg' data-caption="Four">
-						<img src='./img/cocktails/Drink_05.jpg' data-caption="Five">
-						<img src='./img/cocktails/Drink_06.jpg' data-caption="Six">
-						<img src='./img/cocktails/Drink_07.jpg' data-caption="Seven">
-						<img src='./img/cocktails/Drink_08.jpg' data-caption="Eigth">
-						<img src='./img/cocktails/Drink_09.jpg' data-caption="Nine">
-						<img src='./img/cocktails/Drink_10.jpg' data-caption="Ten">
-						<img src='./img/cocktails/Drink_11.jpg' data-caption="Eleven">
-						<img src='./img/cocktails/Drink_12.jpg' data-caption="Twelve">
-						<img src='./img/cocktails/Drink_13.jpg' data-caption="Thirteen">
-						<img src='./img/cocktails/Drink_14.jpg' data-caption="Fourteen">
-						<img src='./img/cocktails/Drink_15.jpg' data-caption="Fifteen">
-						<img src='./img/cocktails/Drink_16.jpg' data-caption="Sixteen">
+<!-- 						<img src='./img/cocktails/Drink_01.jpg' data-caption="One">
+ --><!-- 						<img src='./img/cocktails/Drink_02.jpg' data-caption="Two">
+ -->						<img src='./img/cocktails/Drink_03.jpg' data-caption="HOME ON THE RANGE">
+<!-- 						<img src='./img/cocktails/Drink_04.jpg' data-caption="Four">
+ -->						<img src='./img/cocktails/Drink_05.jpg' data-caption="DRAGON'S BREATH">
+<!-- 						<img src='./img/cocktails/Drink_06.jpg' data-caption="Six">
+ -->						<img src='./img/cocktails/Drink_07.jpg' data-caption="CALIFORNIA SHERRY COBBLER">
+					<!-- 	<img src='./img/cocktails/Drink_08.jpg' data-caption="Eigth"> -->
+						<img src='./img/cocktails/Drink_09.jpg' data-caption="WEST INDIA COUPEREE">
+<!-- 						<img src='./img/cocktails/Drink_10.jpg' data-caption="UNITED SERVICE PUNCH"> -->
+						
+						<img src='./img/cocktails/Drink_13.jpg' data-caption="UNITED SERVICE PUNCH">
+						
+						<img src='./img/cocktails/Drink_14.jpg' data-caption="ROOFGARDEN">
+					<!-- 	<img src='./img/cocktails/Drink_15.jpg' data-caption="Fifteen"> -->
+						<img src='./img/cocktails/Drink_16.jpg' data-caption="SHANGHAI">
 					</div>
 
 					<h3 class='title_bar'>THE BAR</h3>
