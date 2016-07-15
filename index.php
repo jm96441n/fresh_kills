@@ -222,7 +222,7 @@
 					<p class="fine_print">***UPON YOUR REQUEST, UNCOOKED EGG WHITE, EGG YOLK OR WHOLE EGGS MAY BE INCLUDED AS AN INGREDIENT IN SOME OF OUR COCKTAILS. THESE EGGS HAVE BEEN CAREFULLY STORED AND ARE INDIVIDUALLY CRACKED TO ORDER.</p>
 				</div>
 				<div id="pdf_link">
-					<a class="links" href="Menu v10a.pdf" >View as PDF</a>
+					<a class="links" href="Menu v10a.pdf" >VIEW AS PDF</a>
 				</div>
 			</div>
 		</div>
@@ -275,18 +275,15 @@
 		</div>
 		<div class="row">
 			<div id="contact_container" class="col-lg-6 col-md-6 col-sm-12 col-lg-offset-3 col-md-offset-3">
-					<img class="top_logo" src="./top_logo.png"/>
-					<div>
-						<p class="contact_info last_info">718.599.7888</p>
-						<p class="contact_info">161 GRAND STREET</p>
-						<p class="contact_info last_info">BROOKLYN, NY</p>
-					</div>
+					<img class="top_logo" src="./top_logo.png"/> 
+					<!-- CHANGE THIS TO CIRCULAR LOGO -->
+
 					<form action="mailform.php" method="POST">
 						<p class="input_fields">NAME</p> <input type="text" name="name">
 						<p class="input_fields">EMAIL</p> <input type="text" name="email">
 						<p class="input_fields">SUBJECT</p> <input type="text" name="subject">
 						<p class="input_fields">MESSAGE</p><textarea name="message" rows="6" cols="30"></textarea><br />
-						<input class="input_fields" type="submit" value="Send"><input class="input_fields" type="reset" value="Clear">
+						<input class="input_fields" type="submit" value="SEND"><input class="input_fields" type="reset" value="CLEAR">
 					</form>
 			</div>
 		</div>
@@ -302,7 +299,7 @@
 
 	<footer class="row">
 		<div class="col-md-12 col-lg-12 col-sm-12 footer">
-			<p>Copyright 2016 Fresh Kills Bar/John Maguire Designs</p>
+			<p>COPYRIGHT 2016 FRESH KILLS BAR/JOHN MAGUIRE DESIGNS</p>
 		</div>
 	</footer>
 </body>
