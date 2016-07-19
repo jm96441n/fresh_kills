@@ -19,6 +19,8 @@
 	format('woff');
 }
 
+
+
 body {
 	text-align: center;
 }
@@ -35,6 +37,7 @@ body {
 	padding-top: 5%;
 	text-align: center;
 	display: inline-block;
+
 }
 
 #menu_container {
@@ -171,7 +174,7 @@ form {
 }
 
 .drink_title {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-family: "Farmers_Semi_Bold";
 }
 
@@ -189,7 +192,7 @@ form {
 .alcohol_type {
 	font-family: "Farmers_Thin";
 	text-decoration: underline;
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
 
 .wine_type {
@@ -215,7 +218,7 @@ form {
 
 p {
 	font-family: "Farmers_Thin";
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
 
 .wine_description {
@@ -239,3 +242,11 @@ p {
 	width: 100%;
 }
 
+.secondary_logo {
+	width: 50%;
+	height:50%;
+}
+
+#footer-text {
+	font-size: 0.5rem
+}

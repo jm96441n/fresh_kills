@@ -275,9 +275,8 @@
 		</div>
 		<div class="row">
 			<div id="contact_container" class="col-lg-6 col-md-6 col-sm-12 col-lg-offset-3 col-md-offset-3">
-					<img class="top_logo" src="./top_logo.png"/> 
-					<!-- CHANGE THIS TO CIRCULAR LOGO -->
-
+					<img class="secondary_logo" src="./secondary_logo.png"/> 
+			
 					<form action="mailform.php" method="POST">
 						<p class="input_fields">NAME</p> <input type="text" name="name">
 						<p class="input_fields">EMAIL</p> <input type="text" name="email">
@@ -299,7 +298,7 @@
 
 	<footer class="row">
 		<div class="col-md-12 col-lg-12 col-sm-12 footer">
-			<p>COPYRIGHT 2016 FRESH KILLS BAR/JOHN MAGUIRE DESIGNS</p>
+			<p id='footer-text'>COPYRIGHT 2016 FRESH KILLS BAR/JOHN MAGUIRE DESIGNS</p>
 		</div>
 	</footer>
 </body>
