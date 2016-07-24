@@ -117,6 +117,11 @@ h3{
 
   }
 
+#insta_text {
+	font-family: 'Farmers_Reg';
+	text-align: center;
+	color: white;
+}
 
 .links {
 	font-size: 1.5rem;
@@ -238,8 +243,15 @@ p {
 	border-top: 2px solid black;
 }
 
-.top_logo {
+.top_logo_container {
+	background-color: white;
 	width: 100%;
+}
+
+.top_logo {
+	height: 350px;
+	width: 700px;
+
 }
 
 .secondary_logo {
@@ -247,6 +259,13 @@ p {
 	height:50%;
 }
 
+
 #footer-text {
 	font-size: 0.5rem
+}
+
+#insta_logo {
+	height: 40%;
+	width: 40%;
+	margin-bottom: 2rem;
 }

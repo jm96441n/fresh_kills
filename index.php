@@ -32,8 +32,8 @@
 		<div class="row">
 			<div id="menu_container" class="col-lg-8 col-md-8 col-sm-12 col-lg-offset-2 col-md-offset-2">
 				<div>
-					<div>
-						<img class="top_logo" src="./top_logo.png"/>
+					<div class="top_logo_container">
+						<img class="top_logo" src="./top_logo.jpg"/>
 					</div>
 					<div class="section_header">
 						<p class="section_header_text">HAPPY HOUR - 6</p>
@@ -232,7 +232,8 @@
 					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.css">
 					<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.js"></script>
 
-					<img class="top_logo" src="./top_logo.png"/>
+					<img class="top_logo" src="./top_logo.jpg"/>
+
 					<h3 class='title_bar'>THE COCKTAILS</h3>
 
 					<div class="fotorama photo-div"
@@ -269,6 +270,14 @@
 						<img src="./img/ice/Ice_03.jpg" >
 						<img src="./img/ice/Ice_04.jpg" >
 						<img src="./img/ice/Ice_09.jpg" >
+					</div>
+					<a href="https://www.instagram.com/freshkillsbar/">
+						<h4 id="insta_text">INSTAGRAM </h4>
+					</a>
+					<div class='row'>
+						<a href="https://www.instagram.com/freshkillsbar/" class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-5 col-md-offset-5 col-sm-offset-5" >
+							<img src='./instagram.jpg' id='insta_logo'>
+						</a>
 					</div>
 				</div>
 			</div>
