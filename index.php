@@ -232,7 +232,9 @@
 					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.css">
 					<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.js"></script>
 
-					<img class="top_logo" src="./top_logo.jpg"/>
+					<div class="top_logo_container">
+						<img class="top_logo" src="./top_logo.jpg"/>
+					</div>
 
 					<h3 class='title_bar'>THE COCKTAILS</h3>
 
