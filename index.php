@@ -245,7 +245,7 @@
 					<p><span class="wine_type">WHITE:</span> <span> $8/$11</p>
 					<p><span class="wine_type">ROSÉ:</span> <span> $8</p>
 
-					<p><span class="wine_type">CHAMPAGNE:</span> <span class="wine_description">PERRIER-JOUËT GRAND BRUT</span> (EPERNAY, FRANCE) <span>14; 30</span> PER 375ML BOTTLE</p>
+					<p><span class="wine_type">CHAMPAGNE:</span> <span class="wine_description">PERRIER-JOUËT GRAND BRUT</span> (EPERNAY, FRANCE) <span class="wine_description">14; 30</span> PER 375ML BOTTLE</p>
 
 					<p class="section_header_text border_top">SIPPING SPIRITS:</p>
 					<p>FOR YOUR CONSIDERATION ON THE BACK BAR. <span class="drink_title">$MP</span></p>
@@ -253,9 +253,9 @@
 					<p class="section_header_text border_top">BAR SNACKS $5 EA</p>
 					<p>BEEF JERKEY <span><img src="./dot.png" id="dot" ></span>  MIXED NUTS</p>
 
-					<p class="fine_print">*CONTAINS INGREDIENTS THAT MAY BE HARMFUL TO INDIVIDUALS WITH NUT ALLERGIES!</p>
-					<p class="fine_print">**CONTAINS MILK SUGAR/LACTOSE</p>
-					<p class="fine_print">***UPON YOUR REQUEST, UNCOOKED EGG WHITE, EGG YOLK OR WHOLE EGGS MAY BE INCLUDED AS AN INGREDIENT IN SOME OF OUR COCKTAILS. THESE EGGS HAVE BEEN CAREFULLY STORED AND ARE INDIVIDUALLY CRACKED TO ORDER.</p>
+					<p class="allergies">*CONTAINS INGREDIENTS THAT MAY BE HARMFUL TO INDIVIDUALS WITH NUT ALLERGIES!</p>
+					<p class="allergies">**CONTAINS MILK SUGAR/LACTOSE</p>
+					<p class="allergies">***UPON YOUR REQUEST, UNCOOKED EGG WHITE, EGG YOLK OR WHOLE EGGS MAY BE INCLUDED AS AN INGREDIENT IN SOME OF OUR COCKTAILS. THESE EGGS HAVE BEEN CAREFULLY STORED AND ARE INDIVIDUALLY CRACKED TO ORDER.</p>
 				</div>
 				<div id="pdf_link">
 					<a class="links" href="Menu v10a.pdf" >VIEW AS PDF</a>

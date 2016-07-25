@@ -236,12 +236,17 @@ p {
 	font-size: 1.6rem;
 }
 
+
 .wine_description {
 	font-family: "Farmers_Bold";
 }
 
 .fine_print {
 	font-size: 0.5rem;
+}
+
+.allergies {
+	font-size: 0.8rem;
 }
 
 .section_header {
