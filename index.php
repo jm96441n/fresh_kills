@@ -36,156 +36,182 @@
 						<img class="top_logo" src="./top_logo.jpg"/>
 					</div>
 					<div class="section_header">
-						<p class="section_header_text">HAPPY HOUR - 6</p>
+						<p class="section_header_text">HAPPY HOUR - $9</p>
 						<p>SUNDAY THROUGH THURSDAY 4PM UNTIL 7PM</p>
 					</div>
 					<li>
-						<p class="drink_title">BIN 'N' GITTERS (1951)</p>
+						<p class="drink_title">BIN 'N' GITTERS</p>
 						<p><span class="alcohol_type">GIN</span> FRESH LIME JUICE, SUGAR, ANGOSURA BITTERS. SERVED ON CRUSHED ICE</p>
-				</li>
+
+						<p class="adapted_from">ADAPTED FROM "THE SOUTH AMERICAN GENTLEMAN'S COMPANION, BEING AN EXOTIC DRINKING BOOK OR UP & DOWN THE ANDES WITH JIGGER, BEAKER & FLASK (VOL. I)" BY CHARLES H. BAKER JR., 1951</p>
+					</li>
 
 					<li>
-						<p class="drink_title">NIGHT FLIGHT (1947)</p>
+						<p class="drink_title">HEADLESS HORSEMAN</p>
+						<p><span class="alcohol_type">VODKA</span>, GINGER SYRUP, FRESH LIME JUICE, ANGOSTURA BITTERS, SODA WATER, SERVED LONG.</p>
+						<p class="adapted_from">ADAPTED FROM JONES' COMPLETE BAR GUIDE BY STAN JONES, 1977</p>
+					</li>
+
+					<li>
+						<p class="drink_title">NIGHT FLIGHT</p>
 						<p>CHOICE OF <span class="alcohol_type">WHITE</span> OR <span class="alcohol_type">DARK RUM</span>, MAPLE SYRUP, FRESH LIME JUICE, CINNAMON. SERVED ON CRUSHED ICE</p>
+						<p class="adapted_from">ADAPTED FROM "TRADER VIC'S BARTENDER'S GUIDE" BY VICTOR BERGERON, 1947</p>
 					</li>
 
 					<li>
-						<p class="drink_title">WHISKEY FIX (1939)</p>
+						<p class="drink_title">WHISKEY FIX</p>
 						<p>CHOICE OF <span class="alcohol_type">RYE WHISKEY</span> OR <span class="alcohol_type">BOURBON</span>, FRESH LEMON HUICE, SUGAR, SERVED ON CRUSHED ICE.</p>
+						<p class="adapted_from">ADAPTED FROM "HERE'S HOW" BY THE THREE MOUNTAINEERS, 1939</p>
 					</li>
 
-					<li>
-						<p class="drink_title">KITTY HIGHBALL (1941) -- LOW ABV% - 8</p>
-						<p><span class="alcohol_type">RED WINE</span>, GINGER SYRUP, FRESH LIME JUICE, SODA WATER, SERVED LONG.</p>
-					</li>
+					<p class="section_header_text border_top">HAPPY HOUR WINE <span id="rose_hh">(ROSÉ)</span> - $5</p>
 
-					<p class="section_header_text border_top">HAPPY HOUR BEER - 6</p>
+					<p class="section_header_text border_top">HAPPY HOUR BEER - $5</p>
 
 					<li>
 						<p><span class="drink_title">BELL'S TWO HEARTED IPA</span><span> - KALAMAZOO, MI (USA) 16 OZ. CAN</span></p>
 					</li>
 
-					<p class="section_header_text section_header">LOW ABV% COCKTAILS - 11</p>
+					<p class="section_header_text section_header">LOW ABV% COCKTAILS - $11</p>
 
-					<li>
 						<p>'LOW OCTANE' REFRESHMENTS AVAILABLE DURING ALL HOURS OF BUSINESS.</p>
-					</li>
 
 					<li>
-						<p class="drink_title">BISMARK (1935)</p>
+						<p class="drink_title">BISMARK</p>
 						<p><span class="alcohol_type">RED WINE</span>, RASPBERRY SYRUP, FRESH LEMON JUICE. SERVED ON CRUSHED ICE.</p>
+						<p class="adapted_from">ADAPTED FROM "THE OLD WALDORF ASTORIA BAR BOOK" BY ALBERT STEVENS CROCKETT, C. 1935</p>
 					</li>
 
 					<li>
-						<p class="drink_title">CALIFORNIA SHERRY COBBLER (1908)</p>
+						<p class="drink_title">CALIFORNIA SHERRY COBBLER</p>
 						<p><span class="alcohol_type">AMONTILLADO SHEERY</span>, <span class="alcohol_type">PORT</span> WINE, FRESH JUICES OF PINEAPPLE AND LEMON, DEMERARA SYRUP, ANGOSTURA BITTERS, NUTMEG. SERVED ON CRUSHED ICE.</p>
+						<p class="adapted_from">ADAPTED FROM "DR. SIEGERT'S ANGOSTURA BITTERS DRINK GUIDE," 1908</p>
 					</li>
 
 					<li>
-						<p class="drink_title">GREENBRIER JULEP (1927)</p>
+						<p class="drink_title">GREENBRIER JULEP</p>
 						<p><span class="alcohol_type">OLOROSSO SHERRY</span>, <span class="alcohol_type">PINK VERMOUTH</span>, MINT, DEMERARA SYRUP, PEACH BITTERS. SERVED ON CRUSHED ICE.</p>
+						<p class="adapted_from">ADAPTED FROM "BARFLIES AND COCKTAILS" BY HARRY MACELHONE, 1927</p>
 					</li>
 
 					<li>
-						<p class="drink_title">NEGRONI SBAGLIATO (1967)</p>
+						<p class="drink_title">NEGRONI SBAGLIATO</p>
 						<p><span class="alcohol_type">CAMPARI</span>, <span>SWEET VERMOUTH</span>, <span class="alcohol_type">PROSECO</span>. SHAKEN, AND SERVED DOWN.</p>
+						<p class="adapted_from">MIRKO STOCHETTO, BAR BASSO, 1967</p>
 					</li>
 
 					<li>
-						<p class="drink_title">ROOFGARDEN (1935)</p>
+						<p class="drink_title">ROOFGARDEN</p>
 						<p><span class="alcohol_type">BLANC VERMOUTH</span>, GINGER SYRUP, FRESH LIME JUICE, ANGOSTURA BITTERS, SODA WATER. SERVED LONG OVER A COLLINS SPEAR.</p>
+						<p class="adapted_from">ADAPTED FROM "THE OLD WALDORF ASTORIA BAR BOOK" BY ALBERT STEVENS CROCKETT, C. 1935</p>
 					</li>
 
 					<li>
-						<p class="drink_title">VELVET GLOVE (1937)</p>
+						<p class="drink_title">VELVET GLOVE</p>
 						<p><span class="alcohol_type">COGNAC</span>, <span class="alcohol_type">CREME DE CACAO</span>, <span>COCCHI AMERICANO</span>. STIRRED AND SERVED NEAT WITH A LEMON TWIST.</p>
+						<p class="adapted_from">ADAPTED FROM "CAFÉ ROYAL COCKTAIL BOOK" BY WILL TARLING, 1937</p>
 					</li>
 
-					<p class="section_header"><span id="the_menu">THE MENU  </span><span id="menu_price"> - 13 </span></p>
+					<p class="section_header"><span id="the_menu">THE MENU  </span><span id="menu_price"> - $13 </span></p>
 					
 					<p class="served">BUILT IN THE GLASS OVER A ROCK</p>
 
 					<li>
-						<p class="drink_title">HOME ON THE RANGE (1944)</p>
+						<p class="drink_title">HOME ON THE RANGE</p>
 						<p><span class="alcohol_type">RYE WHISKEY</span>, <span class="alcohol_type">TRIPLE SEC</span>, <span>SWEET VERMOUTH</span>, ANGOSTURA BITTERS, LEMON AND ORANGE TWISTS.</p>
+						<p class="adapted_from">ADAPTED FROM "THE STANDARD COCKTAIL GUIDE" BY CROSBY GAIGE, 1944</p>
 					</li>
 
 					<li>
-						<p class="drink_title">MY HOPE (1891)</p>
+						<p class="drink_title">MY HOPE</p>
 						<p><span class="alcohol_type">COGNAC</span>, <span class="alcohol_type">PORT</span> WINE, ANGOSTURA BITTERS, CAYENNE PEPPER, LEMON TWIST.</p>
+						<p class="adapted_from">ADAPTED FROM THE FLOWING BOWL, BY WILLIAM SCHMIDT, 1891</p>
 					</li>
 
 					<li>
-						<p class="drink_title">THE COFFEE HOUSE (1930)</p>
+						<p class="drink_title">THE COFFEE HOUSE</p>
 						<p><span class="alcohol_type">RYE WHISKEY</span>, <span class="alcohol_type">COFFEE LIQUER</span>, ORANGE BITTERS, ORANGE TWIST.</p>
+						<p class="adapted_from">ADAPTED FROM "THE SALOON IN THE HOME OR A GARLAND OF RUMBLOSSOMS" BY RIDGELY HUNT & GEORGE S. CHAPPELL, 1930</p>
 					</li>
 
 					<p class="served">SHAKEN, AND SERVED STRAIGHT UP</p>
 
 					<li>
-						<p class="drink_title">CRIMEAN CUP A LA MARMORA (1862)</p>
+						<p class="drink_title">CRIMEAN CUP A LA MARMORA</p>
 						<p><span class="alcohol_type">COGNAC</span>, OVERPROOF JAMAICAN <span class="alcohol_type">RUM</span>, FRESH LEMON JUICE, HOUSE MADE ORGEAT*, <span class="alcohol_type">MARASCHINO</span> LIQUER, <span class="alcohol_type">CHAMPAGNE</span>, LEMON TWIST.</p>
+						<p class="adapted_from">ADAPTED FROM "HOW TO MIX DRINKS, OR THE BON VIVANT'S COMPANION" BY JERRY THOMAS, 1862</p>
 					</li>
 
 					<li>
-						<p class="drink_title">PISCO-APRICOT TROPICALS (1951)</p>
+						<p class="drink_title">PISCO-APRICOT TROPICALS</p>
 						<p><span class="alcohol_type">PISCO</span>, <span class="alcohol_type">APRICOT LIQUER</span>, FRESH LIME JUICE, ANGOSTURA BITTERS.</p>
+						<p class="adapted_from">ADAPTED FROM "THE SOUTH AMERICAN GENTLEMAN'S COMPANION, BEING AN EXOTIC DRINKING BOOK OR UP & DOWN THE ANDES WITH JIGGER, BEAKER & FLASK (VOL. I)" BY  CHARLES H. BAKER JR., 1951</p>
 					</li>
 
 					<li>
-						<p class="drink_title">SHANGHAI (1940)</p>
+						<p class="drink_title">SHANGHAI</p>
 						<p>JAMAICAN <span class="alcohol_type">RUM</span>, HOUSE-MADE GRENADINE, FRESH LEMON JUICE, ABSINTHE, CHERRY.</p>
+						<p class="adapted_from">ADAPTED FROM "THE OFFICIAL MIXER'S MANUAL" BY PATRICK GAVIN DUFFY, 1940</p>
 					</li>
 
 					<p class="served">SERVED LONG</p>
 
 					<li>
-						<p class="drink_title">INVISIBLE GIN HIGHBALL (1905)</p>
+						<p class="drink_title">INVISIBLE GIN HIGHBALL</p>
 						<p><span class="alcohol_type">GIN</span>, <span class="alcohol_type">APRICOT LIQUER</span>, FRESH JUICES OF PINEAPPLE AND LEMON, HOUSE-MADE GINER SYRUP, SODA WATER.</p>
+						<p class="adapted_from">ADAPTED FROM "HOFFMAN HOUSE BARTENDER'S GUIDE" BY CHARLES S. MAHONEY, 1905</p>
 					</li>
 
 					<li>
-						<p class="drink_title">NORTHSIDE SPECIAL (1930)</p>
+						<p class="drink_title">NORTHSIDE SPECIAL</p>
 						<p>BERMUDIAN <span class="alcohol_type">RUM</span>, FRESH JUICES OF ORANGE AND LEMON, SUGAR, SODA WATER.</p>
+						<p class="adapted_from">ADAPTED FROM "THE SAVOY COCKTAIL BOOK" BY HARRY CRADDOCK, 1930</p>
 					</li>
 
 					<li>
-						<p class="drink_title">WEST INDIA COUPEREE (1862)</p>
+						<p class="drink_title">WEST INDIA COUPEREE</p>
 						<p><span class="alcohol_type">COGNAC</span>, ORANGE <span>CURACAO</span>, VANILLA ICE CREAM, FRESH LEMON JUICE, SODA WATER, NUTMEG.</p>
+						<p class="adapted_from">ADAPTED FROM "HOW TO MIX DRINKS OR BON VIVANT'S COMPANION" BY JERRY THOMAS, 1862</p>
 					</li>
 					
 					<p class="served">STIRRED, AND SERVED STRAIGHT UP</p>
 
 					<li>
-						<p class="drink_title">ARAWAK (1947)</p>
+						<p class="drink_title">ARAWAK</p>
 						<p><span class="alcohol_type">PEDRO XIMENEZ SHERRY</span>, JAMAICAN <span class="alcohol_type">RUM</span>, ANGOSTURA BITTERS, LEMON TWIST, CHERRY.</p>
+						<p class="adapted_from">ADAPTED FROM "TRADER VIC'S BARTENDER'S GUIDE" BY VICTOR BERGERON, 1947</p>
 					</li>
 
 					<li>
-						<p class="drink_title">DRAGON'S BREATH (1934)</p>
+						<p class="drink_title">DRAGON'S BREATH</p>
 						<p><span class="alcohol_type">CALVADOS</span>, <span>DRY VERMOUTH</span>, <span class="alcohol_type">APRICOT LIQUER</span>, HOT SAUCE, PICKLED WALNUT.</p>
+						<p class="adapted_from">ADAPTED FROM "1700 COCKTAILS FOR THE MAN BEHIND THE BAR" BY R. DE FLEURY, 1934</p>
 					</li>
 
 					<li>
-						<p class="drink_title">TUNNEL (1934)</p>
+						<p class="drink_title">TUNNEL</p>
 						<p><span class="alcohol_type">GIN</span>, <span>CAMPARI</span>, SWEET AND DRY <span class="alcohol_type">VERMOUTH</span>, ORANGE TWIST, CHERRY.</p>
+						<p class="adapted_from">ADAPTED FROM "1700 COCKTAILS FOR THE MAN BEHIND THE BAR" BY R. DE FLEURY, 1934</p>
 					</li>
 
-					<p class="drink_title">SHAKEN, AND SERVED DOWN</p>
+					<p class="served">SHAKEN, AND SERVED DOWN</p>
 
 					<li>
-						<p class="drink_title">DIZZY SOUR (1933)</p>
+						<p class="drink_title">DIZZY SOUR</p>
 						<p><span class="alcohol_type">BOURBON</span>, <span>BENEDICTINE</span>, FRESH LEMON JUICE, DEMERARA SYRUP, OVERPROOF JAMAICAN <span class="alcohol_type">RUM</span>.</p>
+						<p class="adapted_from">ADAPTED FROM JAYNE'S BARTENDER'S GUIDE, BY DR. D. JAYNE & SON, INC., 1933</p>
 					</li>
 
 					<li>
-						<p class="drink_title">INIMITABLE COCKTAIL (1895)</p>
+						<p class="drink_title">INIMITABLE COCKTAIL</p>
 						<p>OLD TOM <span class="alcohol_type">GIN</span>, FRESH LEMON JUICE, SUGAR, PEYCHAUD'S BITTERS, CHERRY.</p>
+						<p class="adapted_from">ADAPTED FROM "MODERN AMERICAN DRINKS" BY GEORGE A. KAPPELER, 1895</p>
 					</li>
 
 					<li>
-						<p class="drink_title">UNITED SERVICE PUNCH (1862)</p>
+						<p class="drink_title">UNITED SERVICE PUNCH</p>
 						<p>BATAVIA <span class="alcohol_type">ARRACK</span>, SALTED LAPSANG SOUCHONG SYRUP, FRESH LEMON JUICE, NUTMEG, LEMON TWIST.</p>
+						<p class="adapted_from">ADAPTED FROM "HOW TO MIX DRINKS OR THE BON VIVANT'S COMPANION" BY JERRY THOMAS, 1862</p>
 					</li>
 
 					<p id="other_cocktails" class="section_header">ALL OTHER COCKTAILS</p>
@@ -193,29 +219,39 @@
 
 					<p class="section_header_text border_top">BEER</p>
 					<li>
-						<p class="drink_title">TWO ROADS 'TWO EVIL' GEYSER GOSE 7</p>
-						<p>STRATFORD,CT (USA) </p>
+						<p class="drink_title">BELLS TWO HEARTED IPA $7</p>
+						<p>KALAMAZOO, MI (USA) 16 OZ. CAN </p>
 					</li>
 
 					<li>	
-						<p class="drink_title">BELL'S TWO HEARTED IPA 6</p>
-						<p>KALAMAZOO,MI (USA)</p>
+						<p class="drink_title">RADEBURGER PILSNER $6</p>
+						<p>RADEBURGER, GERMANY (16 OZ CAN)</p>
 					</li>
+					<li>	
+						<p class="drink_title">BLANCHE DE BRUXELLE $7</p>
+						<p>REBECQ, BELGIUM (16 OZ CAN)</p>
+					</li>
+
+					<p class="section_header_text border_top">CIDER</p>
 
 					<li>
-						<p class="drink_title">AGAINST THE GRAIN '35K' MILK STOUT**</p>
-						<p>LOUISVILLE,KY (USA)</p>
+						<p class="drink_title">J.K.'S SCRUMPY ORGANIC HARD CIDER $8</p>
+						<p>FLUSHING, MI (USA) 16 OZ. CAN</p>
 					</li>
 
-					<p class="section_header_text border_top">WINE</p>
-					<p><span class="wine_type">RED:</span> <span class="wine_description">SELLA & MOSCA CANNONAU DI SARDEGNA RISERVA 2006</span> (SARDINIA) <span>10</span></p>
-					
-					<p><span class="wine_type">WHITE:</span> <span class="wine_description">VELENOSI VERDICCHIO DEI CASTELLI DI JESI 2014</span> (MARCHE, ITALIA) <span>10</span></p>
 
-					<p><span class="wine_type">CHAMPAGNE:</span> <span class="wine_description">PERRIER-JOUET GRAND BRUT</span> (EPERNAY, FRANCE) <span>14; 30</span> PER 375ML BOTTLE</p>
+					<p class="section_header_text border_top">WINE</p>
+					<p><span class="wine_type">RED:</span> <span>$8/$11</p>
+					<p><span class="wine_type">WHITE:</span> <span> $8/$11</p>
+					<p><span class="wine_type">ROSÉ:</span> <span> $8</p>
+
+					<p><span class="wine_type">CHAMPAGNE:</span> <span class="wine_description">PERRIER-JOUËT GRAND BRUT</span> (EPERNAY, FRANCE) <span>14; 30</span> PER 375ML BOTTLE</p>
 
 					<p class="section_header_text border_top">SIPPING SPIRITS:</p>
 					<p>FOR YOUR CONSIDERATION ON THE BACK BAR. <span class="drink_title">$MP</span></p>
+
+					<p class="section_header_text border_top">BAR SNACKS $5 EA</p>
+					<p>BEEF JERKEY <span><img src="./dot.png" id="dot" ></span>  MIXED NUTS</p>
 
 					<p class="fine_print">*CONTAINS INGREDIENTS THAT MAY BE HARMFUL TO INDIVIDUALS WITH NUT ALLERGIES!</p>
 					<p class="fine_print">**CONTAINS MILK SUGAR/LACTOSE</p>

@@ -179,51 +179,61 @@ form {
 }
 
 .drink_title {
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	font-family: "Farmers_Semi_Bold";
 }
 
 .served {
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	font-family: "Farmers_Semi_Bold";
 	text-decoration: underline;
 }
 
 .section_header_text {
 	font-family: "Farmers_Bold";
-	font-size: 2rem;
+	font-size: 2.2rem;
 }
 
 .alcohol_type {
 	font-family: "Farmers_Thin";
 	text-decoration: underline;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 }
 
 .wine_type {
 	font-family: "Farmers_Bold";
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	text-decoration: underline;
 }
 
 #the_menu {
 	font-family: "Farmers_Bold";
-	font-size: 2.4rem;
+	font-size: 2.6rem;
 }
 
 #other_cocktails {
 	font-family: "Farmers_Bold";
-	font-size: 2.2rem;
+	font-size: 2.4rem;
 }
 
 #menu_price {
 	font-family: "Farmers_Bold";
-	font-size: 1.7rem;
+	font-size: 1.9rem;
 }
 
 p {
 	font-family: "Farmers_Thin";
-	font-size: 1.2rem;
+	font-size: 1.4rem;
+}
+
+.adapted_from {
+	font-family: "Farmers_Thin";
+	font-size: 1rem;
+}
+
+#rose_hh {
+	font-family: "Farmers_Thin";
+	font-size: 1.6rem;
 }
 
 .wine_description {
@@ -268,4 +278,9 @@ p {
 	height: 40%;
 	width: 40%;
 	margin-bottom: 2rem;
+}
+
+#dot {
+	height: 1%;
+	width: 1%;
 }
