@@ -35,7 +35,6 @@ body {
 	width: 80%;
 	height: 100%;
 	margin-right: -5%;
-
 }
 
 
@@ -52,6 +51,7 @@ body {
 	text-align: center;
 	display: inline-block;
 	padding-bottom: 8%;
+	background-color: black;
 
 }
 
@@ -66,7 +66,7 @@ body {
 
 nav {
 	border-top: 2px solid black; 
-	
+
 }
 
 h3{
@@ -111,11 +111,11 @@ h3{
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) { 
-				.photo-div {
+		.photo-div {
 			margin: auto;
 			width: 50%;
 			height: 50%;
-			}
+		}
 	}
 
 /* Medium devices (desktops, 992px and up) */
@@ -133,6 +133,7 @@ h3{
 			margin: auto;
 			width: 50%;
 			height: 50%;
+
 		}
 
   }

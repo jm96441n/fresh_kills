@@ -263,18 +263,18 @@
 			</div>
 		</div>
 		<div class='row'  id="gallery_container">
-			<div class="col-lg-2 col-md-2 col-sm-2 side_logo">
+			<div class="col-lg-2 col-md-2 hidden-sm hidden-xs side_logo">
 				<img class="side_img" src="./left_side.png" >
 			</div>
-			<div class="col-lg-8 col-md-8 col-sm-8">
+			<div class="col-lg-8 col-md-8 col-sm-12">
 				<div>
 					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.css">
 					<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.js"></script>
 
-					<div class="row">
-						<img class="bar_top col-md-12 col-sm-12 col-lg-12" src="./bar_top.png"/>
+					<div class="row" id="bar_top">
+						<img class="bar_top col-md-12 col-lg-12 hidden-sm hidden-xs" src="./bar_top.png"/>
 					</div>
-					
+
 					<h3 class='title_bar'>THE COCKTAILS</h3>
 
 					<div class="fotorama photo-div"
@@ -322,7 +322,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-2 col-md-2 col-sm-2 side_logo">
+			<div class="col-lg-2 col-md-2 hidden-sm hidden-xs side_logo">
 				<img class="side_img" src="./right_side.png" >
 			</div>
 		</div>
