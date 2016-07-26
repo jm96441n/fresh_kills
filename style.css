@@ -25,6 +25,20 @@ body {
 	text-align: center;
 }
 
+#happy_hour {
+	font-family: "Farmers_Bold";
+	font-size: 2rem;
+}
+
+.side_img{
+	background-color: black;
+	width: 80%;
+	height: 100%;
+	margin-right: -5%;
+
+}
+
+
 .title_bar {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
@@ -37,7 +51,12 @@ body {
 	padding-top: 5%;
 	text-align: center;
 	display: inline-block;
+	padding-bottom: 8%;
 
+}
+
+.home {
+	background-color: black;
 }
 
 #menu_container {
@@ -47,6 +66,7 @@ body {
 
 nav {
 	border-top: 2px solid black; 
+	
 }
 
 h3{

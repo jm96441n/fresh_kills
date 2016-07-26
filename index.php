@@ -23,10 +23,10 @@
     <title>FreshKillsBar</title>
 </head>
 <body>
-	<div class="container-fluid">
-		<div class="row">
+	<div class="container-full">
+		<div class="row home">
 			<div id="logo_container" class="col-lg-8 col-md-8 col-sm-12 col-lg-offset-2 col-md-offset-2">
-				<img id="logo" src="./logo.png" />
+				<img id="logo" src="./main_logo.png" />
 			</div>
 		</div>
 		<div class="row">
@@ -37,7 +37,7 @@
 					</div>
 					<div class="section_header">
 						<p class="section_header_text">HAPPY HOUR - $9</p>
-						<p>SUNDAY THROUGH THURSDAY 4PM UNTIL 7PM</p>
+						<p id="happy_hour">SUNDAY THROUGH THURSDAY 5PM UNTIL 7PM</p>
 					</div>
 					<li>
 						<p class="drink_title">BIN 'N' GITTERS</p>
@@ -262,16 +262,19 @@
 				</div>
 			</div>
 		</div>
-		<div class='row'>
-			<div class="col-lg-8 col-md-8 col-sm-12 col-lg-offset-2 col-md-offset-2">
-				<div  id="gallery_container">
+		<div class='row'  id="gallery_container">
+			<div class="col-lg-2 col-md-2 col-sm-2 side_logo">
+				<img class="side_img" src="./left_side.png" >
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-8">
+				<div>
 					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.css">
 					<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.js"></script>
 
-					<div class="top_logo_container">
-						<img class="top_logo" src="./top_logo.jpg"/>
+					<div class="row">
+						<img class="bar_top col-md-12 col-sm-12 col-lg-12" src="./bar_top.png"/>
 					</div>
-
+					
 					<h3 class='title_bar'>THE COCKTAILS</h3>
 
 					<div class="fotorama photo-div"
@@ -318,6 +321,9 @@
 						</a>
 					</div>
 				</div>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-2 side_logo">
+				<img class="side_img" src="./right_side.png" >
 			</div>
 		</div>
 		<div class="row">
