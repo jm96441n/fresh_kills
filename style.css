@@ -65,8 +65,37 @@ body {
 }
 
 nav {
-	border-top: 2px solid black; 
+	border-top: 2px solid black;
+	padding-bottom: 6%
 
+	
+}
+
+.nav_white {
+	background-color: white;
+	margin-top: 2%;
+}
+
+.nav_black {
+	background-color: black;
+}
+
+.nav_items_black {
+	font-size: 1.5rem;
+	font-family: "Farmers_Thin";
+	margin-left: 2%;
+	color: #eccf90; 
+}
+
+.nav_items_white {
+	font-size: 1.5rem;
+	font-family: "Farmers_Thin";
+	color: black;
+	margin-left: 2%;
+}
+
+.container-full {
+	margin-bottom: -2%;
 }
 
 h3{
@@ -95,6 +124,7 @@ h3{
 
 #links_p {
 	margin-top: 2%;
+	margin-bottom: 0;
 	text-align: center;
 }
 
@@ -153,9 +183,17 @@ h3{
 	font-family: "Farmers_Thin";
 	color: black;
 	margin-left: 2%;
+	padding-bottom: 5%;
 }
 
-.current_link {
+.current_link_black {
+	font-size: 2rem;
+	font-family: "Farmers_Thin";
+	color: #eccf90;
+	margin-left: 2%;
+	}
+
+.current_link_white {
 	font-size: 2rem;
 	font-family: "Farmers_Thin";
 	color: black;
@@ -175,12 +213,25 @@ h3{
 	padding: 1.5rem;
 }
 
-.footer {
+.footer_black {
 	font-family: "Farmers_Thin";
 	font-size: 0.5rem;
+	color: #eccf90;
 	margin-bottom: 0px;
-	position: fixed;
+	position: absolute;
 	text-align: center;
+	background: black;
+	padding-bottom: 4.7%;
+}
+
+.footer_white {
+	font-family: "Farmers_Thin";
+	font-size: 0.5rem;
+	color: black;
+	margin-bottom: 0px;
+/*	position: fixed;*/
+	text-align: center;
+	background: white;
 	
 }
 
@@ -286,6 +337,18 @@ p {
 .top_logo_container {
 	background-color: white;
 	width: 100%;
+}
+
+.gold_logo_container {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	background-color: white;
+	width: 100%;
+}
+
+.gold_logo {
+	height: 10%;
+	width: 75%;
 }
 
 .top_logo {

@@ -32,8 +32,8 @@
 		<div class="row">
 			<div id="menu_container" class="col-lg-8 col-md-8 col-sm-12 col-lg-offset-2 col-md-offset-2">
 				<div>
-					<div class="top_logo_container">
-						<img class="top_logo" src="./top_logo.jpg"/>
+					<div class="gold_logo_container">
+						<img class="gold_logo" src="./main_gold_logo.png"/>
 					</div>
 					<div class="section_header">
 						<p class="section_header_text">HAPPY HOUR - $9</p>
@@ -225,7 +225,7 @@
 
 					<li>	
 						<p class="drink_title">RADEBURGER PILSNER $6</p>
-						<p>RADEBURGER, GERMANY (16 OZ CAN)</p>
+						<p>RADEBURG, GERMANY (16 OZ CAN)</p>
 					</li>
 					<li>	
 						<p class="drink_title">BLANCHE DE BRUXELLE $7</p>
@@ -281,14 +281,14 @@
 							 data-nav="thumbs"
 							 data-loop="true"
 						>
-						<img src='./img/cocktails/Drink_03.jpg' data-caption="HOME ON THE RANGE">
-						<img src='./img/cocktails/Drink_05.jpg' data-caption="DRAGON'S BREATH">
-						<img src='./img/cocktails/Drink_07.jpg' data-caption="CALIFORNIA SHERRY COBBLER">
-						<img src='./img/cocktails/Drink_09.jpg' data-caption="WEST INDIA COUPEREE">
+						<img src='./img/cocktails/Drink_03.jpg' >
+						<img src='./img/cocktails/Drink_05.jpg' >
+						<img src='./img/cocktails/Drink_07.jpg' >
+						<img src='./img/cocktails/Drink_09.jpg' >
 						
-						<img src='./img/cocktails/Drink_13.jpg' data-caption="UNITED SERVICE PUNCH">
-						<img src='./img/cocktails/Drink_14.jpg' data-caption="ROOFGARDEN">
-						<img src='./img/cocktails/Drink_16.jpg' data-caption="SHANGHAI">
+						<img src='./img/cocktails/Drink_13.jpg'>
+						<img src='./img/cocktails/Drink_14.jpg'>
+						<img src='./img/cocktails/Drink_16.jpg'>
 					</div>
 
 					<h3 class='title_bar'>THE BAR</h3>
@@ -340,17 +340,17 @@
 			</div>
 		</div>
 	</div>
-	<nav>
+	<nav class="nav_black">
 		<p id="links_p">
-			<a id="home" class="current_link" href="#">HOME</a> 
-			<a id="menu" class="links" href="#">THE MENU</a> 
-			<a id="gallery" class="links" href="#">PICTURES</a>  
-			<a id="contact" class="links" href="#">CONTACT</a>
+			<a class="nav_items_black" id="home" class="current_link" href="#">HOME</a> 
+			<a class="nav_items_black" id="menu" class="links" href="#">THE MENU</a> 
+			<a class="nav_items_black" id="gallery" class="links" href="#">PICTURES</a>  
+			<a class="nav_items_black" id="contact" class="links" href="#">CONTACT</a>
 		</p>
 	</nav>
 
 	<footer class="row">
-		<div class="col-md-12 col-lg-12 col-sm-12 footer">
+		<div id="footer" class="col-md-12 col-lg-12 col-sm-12 footer_black">
 			<p id='footer-text'>COPYRIGHT 2016 FRESH KILLS BAR/JOHN MAGUIRE DESIGNS</p>
 		</div>
 	</footer>
