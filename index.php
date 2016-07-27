@@ -225,7 +225,7 @@
 
 					<li>	
 						<p class="drink_title">RADEBURGER PILSNER $6</p>
-						<p>RADEBURG, GERMANY (16 OZ CAN)</p>
+						<p>RADEBERG, GERMANY (16 OZ CAN)</p>
 					</li>
 					<li>	
 						<p class="drink_title">BLANCHE DE BRUXELLE $7</p>
@@ -326,8 +326,8 @@
 				<img class="side_img" src="./right_side.png" >
 			</div>
 		</div>
-		<div class="row">
-			<div id="contact_container" class="col-lg-6 col-md-6 col-sm-12 col-lg-offset-3 col-md-offset-3">
+		<div class="row" id="contact_container">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-lg-offset-3 col-md-offset-3">
 					<img class="secondary_logo" src="./secondary_logo.png"/> 
 			
 					<form action="mailform.php" method="POST">

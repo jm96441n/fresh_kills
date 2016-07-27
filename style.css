@@ -111,6 +111,7 @@ h3{
 #contact_container {
 	padding-top: 2rem;
 	display: none;
+	background-color: black;
 }
 
 #logo {
@@ -120,6 +121,8 @@ h3{
 
 .input_fields {
 	font-family: "Farmers_Thin";
+	color: #eccf90;
+	background-color: black;
 }
 
 #links_p {
