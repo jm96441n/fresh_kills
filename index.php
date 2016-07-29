@@ -329,7 +329,7 @@
 					<img class="secondary_logo" src="./secondary_logo.png"/> 
 					<div class="map_logo">
 						<a href="https://www.google.com/maps/place/Fresh+Kills+Bar/@40.7147805,-73.9637076,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2596059a773ef:0xdb075cac1a1aecaa!8m2!3d40.7147805!4d-73.9615189" >
-							<img src="./map_logo.png"/>
+							<img class="map_logo" src="./map_logo.png"/>
 						</a>
 					</div>
 			
