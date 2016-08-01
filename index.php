@@ -85,7 +85,7 @@
 					<li>
 						<p class="drink_title">CALIFORNIA SHERRY COBBLER</p>
 						<p><span class="alcohol_type">AMONTILLADO SHERRY</span>, <span class="alcohol_type">PORT</span> WINE, FRESH JUICES OF PINEAPPLE AND LEMON, DEMERARA SYRUP, ANGOSTURA BITTERS, NUTMEG. SERVED ON CRUSHED ICE.</p>
-						<p class="adapted_from">ADAPTED FROM "DR. SIEGERT'S ANGOSTURA BITTERS DRINK GUIDE," 1908</p>
+						<p class="adapted_from">ADAPTED FROM "DR. SIEGERT'S ANGOSTURA BITTERS DRINK GUIDE", 1908</p>
 					</li>
 
 					<li>
@@ -97,7 +97,7 @@
 					<li>
 						<p class="drink_title">NEGRONI SBAGLIATO</p>
 						<p><span class="alcohol_type">CAMPARI</span>, <span>SWEET VERMOUTH</span>, <span class="alcohol_type">PROSECCO</span>. SERVED LONG.</p>
-						<p class="adapted_from">MIRKO STOCHETTO, BAR BASSO, 1967</p>
+						<p class="adapted_from">MIRKO STOCHETTO, BAR BASSO (MILANO, ITALIA) C. 1967</p>
 					</li>
 
 					<li>
@@ -108,7 +108,7 @@
 
 					<li>
 						<p class="drink_title">VELVET GLOVE</p>
-						<p><span class="alcohol_type">COGNAC</span>, <span class="alcohol_type">CRÉME DE CACAO</span>, <span>COCCHI AMERICANO</span>. STIRRED AND SERVED NEAT WITH A LEMON TWIST.</p>
+						<p><span class="alcohol_type">COGNAC</span>, <span class="alcohol_type">CRÉME DE CACAO</span>, <span class="alcohol_type">COCCHI AMERICANO</span>. STIRRED AND SERVED NEAT WITH A LEMON TWIST.</p>
 						<p class="adapted_from">ADAPTED FROM "CAFÉ ROYAL COCKTAIL BOOK" BY WILL TARLING, 1937</p>
 					</li>
 
@@ -275,6 +275,16 @@
 						<img class="bar_top col-md-12 col-lg-12 hidden-sm hidden-xs" src="./bar_top.png"/>
 					</div>
 
+					<h3 class='title_bar'>THE BAR</h3>
+
+					<div class='fotorama photo-div'
+							 data-nav="thumbs"
+							 data-loop="true"
+						>
+						<img src="./img/bar/Bar_1.jpg" >
+						<img src="./img/bar/Bar_2.jpg" >
+					</div>
+
 					<h3 class='title_bar'>THE COCKTAILS</h3>
 
 					<div class="fotorama photo-div"
@@ -291,15 +301,6 @@
 						<img src='./img/cocktails/Drink_16.jpg'>
 					</div>
 
-					<h3 class='title_bar'>THE BAR</h3>
-
-					<div class='fotorama photo-div'
-							 data-nav="thumbs"
-							 data-loop="true"
-						>
-						<img src="./img/bar/Bar_1.jpg" >
-						<img src="./img/bar/Bar_2.jpg" >
-					</div>
 
 					<h3 class='title_bar'>THE ICE</h3>
 
@@ -357,6 +358,7 @@
 			<p id='footer-text'>COPYRIGHT 2016 FRESH KILLS BAR/JOHN MAGUIRE DESIGNS</p>
 		</div>
 	</footer>
+
 </body>
 
 </html>
