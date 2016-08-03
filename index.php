@@ -258,7 +258,7 @@
 					<p class="allergies">***UPON YOUR REQUEST, UNCOOKED EGG WHITE, EGG YOLK OR WHOLE EGGS MAY BE INCLUDED AS AN INGREDIENT IN SOME OF OUR COCKTAILS. THESE EGGS HAVE BEEN CAREFULLY STORED AND ARE INDIVIDUALLY CRACKED TO ORDER.</p>
 				</div>
 				<div id="pdf_link">
-					<a class="links" href="Menu v10a.pdf" >VIEW AS PDF</a>
+					<a class="links" href="menu.pdf" >VIEW AS PDF</a>
 				</div>
 			</div>
 		</div>
