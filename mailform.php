@@ -7,7 +7,7 @@
 				$subject = $_POST['subject'];
 				$message = $_POST['message'];
 				$email = new SendGrid\Email();
-				$email->addTo('john@johnmaguiredeveloper.com')
+				$email->addTo('freshkillsbar@gmail.com')
 				    ->setFrom($from)
 				    ->setSubject('Fresh Kills Contact 
 				    	Form')
